@@ -1,0 +1,248 @@
+{
+  "updatedAt": "2026-07-29 20:30 JST",
+  "source": "サンプルデータ（実価格ではありません）",
+  "items": [
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "Intel Core Ultraシリーズ",
+      "name": "Intel Core Ultra 9 285K",
+      "price": 89980,
+      "previousPrice": 90980,
+      "sortScore": 9850,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "Intel 第14世代",
+      "name": "Intel Core i9-14900K",
+      "price": 82500,
+      "previousPrice": 82500,
+      "sortScore": 9490,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "Intel 第14世代",
+      "name": "Intel Core i7-14700K",
+      "price": 61800,
+      "previousPrice": 60800,
+      "sortScore": 9470,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "Intel 第13世代",
+      "name": "Intel Core i7-13700K",
+      "price": 44000,
+      "previousPrice": 44980,
+      "sortScore": 8370,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "AMD Ryzen 9000",
+      "name": "AMD Ryzen 9 9950X3D",
+      "price": 119800,
+      "previousPrice": 119800,
+      "sortScore": 9995,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "AMD Ryzen 9000",
+      "name": "AMD Ryzen 7 9800X3D",
+      "price": 79800,
+      "previousPrice": 80980,
+      "sortScore": 9980,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "CPU",
+      "group": "AMD Ryzen 5000",
+      "name": "AMD Ryzen 7 5700X",
+      "price": 42750,
+      "previousPrice": 41750,
+      "sortScore": 5570,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "GPU",
+      "group": "GeForce RTX 50",
+      "name": "NVIDIA GeForce RTX 5090",
+      "price": 429800,
+      "previousPrice": 435000,
+      "sortScore": 5090,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "GPU",
+      "group": "GeForce RTX 50",
+      "name": "NVIDIA GeForce RTX 5080",
+      "price": 189800,
+      "previousPrice": 189800,
+      "sortScore": 5080,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "GPU",
+      "group": "GeForce RTX 40",
+      "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+      "price": 129800,
+      "previousPrice": 127800,
+      "sortScore": 4078,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "GPU",
+      "group": "Radeon RX 7000",
+      "name": "AMD Radeon RX 7900 XTX",
+      "price": 148000,
+      "previousPrice": 152000,
+      "sortScore": 7995,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "DDR4",
+      "group": "容量別 最安",
+      "name": "DDR4 128GB",
+      "price": 28980,
+      "previousPrice": 29980,
+      "sortScore": 128,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "DDR4",
+      "group": "容量別 最安",
+      "name": "DDR4 64GB",
+      "price": 13980,
+      "previousPrice": 13980,
+      "sortScore": 64,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "DDR4",
+      "group": "容量別 最安",
+      "name": "DDR4 32GB",
+      "price": 6980,
+      "previousPrice": 7280,
+      "sortScore": 32,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "DDR5",
+      "group": "容量別 最安",
+      "name": "DDR5 128GB",
+      "price": 39980,
+      "previousPrice": 39980,
+      "sortScore": 128,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "DDR5",
+      "group": "容量別 最安",
+      "name": "DDR5 64GB",
+      "price": 17980,
+      "previousPrice": 18480,
+      "sortScore": 64,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "SSD",
+      "group": "M.2 NVMe",
+      "name": "M.2 SSD 8TB",
+      "price": 89980,
+      "previousPrice": 89980,
+      "sortScore": 8000,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "SSD",
+      "group": "M.2 NVMe",
+      "name": "M.2 SSD 4TB",
+      "price": 32980,
+      "previousPrice": 34980,
+      "sortScore": 4000,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "SSD",
+      "group": "SATA 2.5-inch",
+      "name": "SATA SSD 2TB",
+      "price": 15980,
+      "previousPrice": 15480,
+      "sortScore": 2000,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "HDD",
+      "group": "SATA 3.5-inch",
+      "name": "HDD 8TB",
+      "price": 16980,
+      "previousPrice": 17480,
+      "sortScore": 8000,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "HDD",
+      "group": "SATA 3.5-inch",
+      "name": "HDD 4TB",
+      "price": 8980,
+      "previousPrice": 8980,
+      "sortScore": 4000,
+      "comparisonAvailable": true,
+      "stale": false
+    },
+    {
+      "enabled": true,
+      "category": "HDD",
+      "group": "SATA 3.5-inch",
+      "name": "HDD 256GB",
+      "price": 0,
+      "previousPrice": 0,
+      "sortScore": 256,
+      "comparisonAvailable": false,
+      "stale": false
+    }
+  ]
+}
