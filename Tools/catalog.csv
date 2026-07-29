@@ -1,0 +1,177 @@
+﻿enabled,category,group,name,sortScore,kakakuUrl,sourceMode
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 9 285K,209285,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 9 285,209284,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265K,207265,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265KF,207264,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265,207263,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265F,207262,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245K,205245,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245KF,205244,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245,205243,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 235,205235,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 225,205225,,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 225F,205224,,fetch
+1,CPU,Intel 第14世代,Intel Core i9-14900K,1409494,,fetch
+1,CPU,Intel 第14世代,Intel Core i9-14900KF,1409493,,fetch
+1,CPU,Intel 第14世代,Intel Core i9-14900,1409492,,fetch
+1,CPU,Intel 第14世代,Intel Core i9-14900F,1409491,,fetch
+1,CPU,Intel 第14世代,Intel Core i7-14700K,1407474,,fetch
+1,CPU,Intel 第14世代,Intel Core i7-14700KF,1407473,,fetch
+1,CPU,Intel 第14世代,Intel Core i7-14700,1407472,,fetch
+1,CPU,Intel 第14世代,Intel Core i7-14700F,1407471,,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14600K,1405464,,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14600KF,1405463,,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14600,1405462,,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14500,1405450,,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14400,1405442,,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14400F,1405441,,fetch
+1,CPU,Intel 第14世代,Intel Core i3-14100,1403412,,fetch
+1,CPU,Intel 第14世代,Intel Core i3-14100F,1403411,,fetch
+1,CPU,Intel 第13世代,Intel Core i9-13900K,1309394,,fetch
+1,CPU,Intel 第13世代,Intel Core i9-13900KF,1309393,,fetch
+1,CPU,Intel 第13世代,Intel Core i9-13900,1309392,,fetch
+1,CPU,Intel 第13世代,Intel Core i9-13900F,1309391,,fetch
+1,CPU,Intel 第13世代,Intel Core i7-13700K,1307374,,fetch
+1,CPU,Intel 第13世代,Intel Core i7-13700KF,1307373,https://kakaku.com/item/K0001476108/,fetch
+1,CPU,Intel 第13世代,Intel Core i7-13700,1307372,,fetch
+1,CPU,Intel 第13世代,Intel Core i7-13700F,1307371,,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13600K,1305364,,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13600KF,1305363,,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13600,1305362,,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13500,1305350,,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13400,1305342,,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13400F,1305341,,fetch
+1,CPU,Intel 第13世代,Intel Core i3-13100,1303312,,fetch
+1,CPU,Intel 第13世代,Intel Core i3-13100F,1303311,,fetch
+1,CPU,Intel 第12世代,Intel Core i9-12900K,1209294,,fetch
+1,CPU,Intel 第12世代,Intel Core i9-12900KF,1209293,,fetch
+1,CPU,Intel 第12世代,Intel Core i9-12900,1209292,,fetch
+1,CPU,Intel 第12世代,Intel Core i9-12900F,1209291,,fetch
+1,CPU,Intel 第12世代,Intel Core i7-12700K,1207274,,fetch
+1,CPU,Intel 第12世代,Intel Core i7-12700KF,1207273,,fetch
+1,CPU,Intel 第12世代,Intel Core i7-12700,1207272,,fetch
+1,CPU,Intel 第12世代,Intel Core i7-12700F,1207271,,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12600K,1205264,,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12600KF,1205263,,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12600,1205262,,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12500,1205250,,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12400,1205242,,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12400F,1205241,,fetch
+1,CPU,Intel 第12世代,Intel Core i3-12300,1203230,,fetch
+1,CPU,Intel 第12世代,Intel Core i3-12100,1203212,,fetch
+1,CPU,Intel 第12世代,Intel Core i3-12100F,1203211,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X3D2,900099999,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X3D,900099998,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X,900099950,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9900X3D,900099908,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9900X,900099900,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9800X3D,900079880,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9700X,900079700,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9700,900079690,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 5 9600X3D,900059608,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 5 9600X,900059600,,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 5 9600,900059590,,fetch
+1,CPU,AMD Ryzen 8000,AMD Ryzen 7 8700G,800078700,,fetch
+1,CPU,AMD Ryzen 8000,AMD Ryzen 5 8600G,800058600,,fetch
+1,CPU,AMD Ryzen 8000,AMD Ryzen 5 8500G,800058500,,fetch
+1,CPU,AMD Ryzen 8000,AMD Ryzen 3 8300G,800038300,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7950X3D,700099798,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7950X,700099750,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900X3D,700099708,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900X,700099700,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900,700099690,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7800X3D,700079780,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7700X,700079700,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7700,700079690,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 5 7600X,700059600,,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 5 7600,700059590,,fetch
+1,CPU,AMD Ryzen 6000,AMD Ryzen 7 6700G,600076700,,fetch
+1,CPU,AMD Ryzen 6000,AMD Ryzen 5 6600G,600056600,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5950X,500099550,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5900X,500099500,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5900,500099490,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800X3D,500079580,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800X,500079500,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800,500079490,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700X3D,500079570,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700X,500079400,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700G,500079480,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700,500079470,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600X3D,500059568,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600X,500059560,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600G,500059550,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600,500059540,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5500,500059400,,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 3 5300G,500039300,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5090,50900,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5080,50800,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5070 Ti,50750,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5070,50700,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5060 Ti,50650,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5060,50600,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5050,50500,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4090,40900,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4080 SUPER,40880,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4080,40800,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 Ti SUPER,40780,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 Ti,40750,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 SUPER,40730,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070,40700,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4060 Ti,40650,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4060,40600,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3090 Ti,30950,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3090,30900,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3080 Ti,30850,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3080,30800,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3070 Ti,30750,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3070,30700,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3060 Ti,30650,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3060,30600,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3050,30500,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7900 XTX,79990,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7900 XT,79950,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7900 GRE,79920,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7800 XT,79850,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7700 XT,79750,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7600 XT,79650,,fetch
+1,GPU,Radeon RX 7000,AMD Radeon RX 7600,79600,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6950 XT,69950,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6900 XT,69900,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6800 XT,69850,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6800,69800,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6750 XT,69750,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6700 XT,69700,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6700,69680,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6650 XT,69650,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6600 XT,69600,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6600,69580,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6500 XT,69500,,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6400,69400,,fetch
+1,DDR4,容量別 最安,DDR4 128GB,128,,manual
+1,DDR4,容量別 最安,DDR4 64GB,64,,manual
+1,DDR4,容量別 最安,DDR4 32GB,32,,manual
+1,DDR4,容量別 最安,DDR4 16GB,16,,manual
+1,DDR4,容量別 最安,DDR4 8GB,8,,manual
+1,DDR5,容量別 最安,DDR5 128GB,128,,manual
+1,DDR5,容量別 最安,DDR5 64GB,64,,manual
+1,DDR5,容量別 最安,DDR5 32GB,32,,manual
+1,DDR5,容量別 最安,DDR5 16GB,16,,manual
+1,DDR5,容量別 最安,DDR5 8GB,8,,manual
+1,SSD,M.2 NVMe,M.2 SSD 8TB,8000,,manual
+1,SSD,M.2 NVMe,M.2 SSD 4TB,4000,,manual
+1,SSD,M.2 NVMe,M.2 SSD 2TB,2000,,manual
+1,SSD,M.2 NVMe,M.2 SSD 1TB,1000,,manual
+1,SSD,M.2 NVMe,M.2 SSD 512GB,512,,manual
+1,SSD,M.2 NVMe,M.2 SSD 256GB,256,,manual
+1,SSD,SATA 2.5-inch,SATA SSD 8TB,8000,,manual
+1,SSD,SATA 2.5-inch,SATA SSD 4TB,4000,,manual
+1,SSD,SATA 2.5-inch,SATA SSD 2TB,2000,,manual
+1,SSD,SATA 2.5-inch,SATA SSD 1TB,1000,,manual
+1,SSD,SATA 2.5-inch,SATA SSD 512GB,512,,manual
+1,SSD,SATA 2.5-inch,SATA SSD 256GB,256,,manual
+1,HDD,SATA 3.5-inch,HDD 8TB,8000,,manual
+1,HDD,SATA 3.5-inch,HDD 4TB,4000,,manual
+1,HDD,SATA 3.5-inch,HDD 2TB,2000,,manual
+1,HDD,SATA 3.5-inch,HDD 1TB,1000,,manual
+1,HDD,SATA 3.5-inch,HDD 512GB,512,,manual
+1,HDD,SATA 3.5-inch,HDD 256GB,256,,manual
