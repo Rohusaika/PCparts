@@ -1,888 +1,344 @@
 {
-  "attempted": 147,
-  "resolved": 139,
-  "unresolved": 8,
+  "attempted": 42,
+  "verified": 0,
+  "cleared": 0,
+  "resolved": 31,
+  "unresolved": 11,
   "items": [
     {
-      "line": 2,
-      "name": "Intel Core Ultra 9 285K",
-      "url": "https://kakaku.com/item/K0001658283/",
-      "message": "resolved"
-    },
-    {
-      "line": 3,
-      "name": "Intel Core Ultra 9 285",
-      "url": "https://kakaku.com/item/K0001679401/",
-      "message": "resolved"
-    },
-    {
       "line": 4,
+      "operation": "resolve",
       "name": "Intel Core Ultra 7 265K",
-      "url": "https://kakaku.com/item/K0001658285/",
-      "message": "resolved"
-    },
-    {
-      "line": 5,
-      "name": "Intel Core Ultra 7 265KF",
-      "url": "https://kakaku.com/item/K0001658285/",
+      "url": "https://kakaku.com/item/K0001658284/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 6,
+      "operation": "resolve",
       "name": "Intel Core Ultra 7 265",
-      "url": "https://kakaku.com/item/K0001678741/",
-      "message": "resolved"
-    },
-    {
-      "line": 7,
-      "name": "Intel Core Ultra 7 265F",
-      "url": "https://kakaku.com/item/K0001678741/",
+      "url": "https://kakaku.com/item/K0001677984/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 8,
+      "operation": "resolve",
       "name": "Intel Core Ultra 5 245K",
-      "url": "https://kakaku.com/item/K0001658287/",
-      "message": "resolved"
-    },
-    {
-      "line": 9,
-      "name": "Intel Core Ultra 5 245KF",
-      "url": "https://kakaku.com/item/K0001658287/",
+      "url": "https://kakaku.com/item/K0001658286/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 10,
+      "operation": "resolve",
       "name": "Intel Core Ultra 5 245",
-      "url": "https://kakaku.com/item/K0001658287/",
-      "message": "resolved"
-    },
-    {
-      "line": 11,
-      "name": "Intel Core Ultra 5 235",
-      "url": "https://kakaku.com/item/K0001673194/",
-      "message": "resolved"
+      "url": "",
+      "kept": false,
+      "message": "No exact item candidate on Kakaku search"
     },
     {
       "line": 12,
+      "operation": "resolve",
       "name": "Intel Core Ultra 5 225",
-      "url": "https://kakaku.com/item/K0001673196/",
-      "message": "resolved"
-    },
-    {
-      "line": 13,
-      "name": "Intel Core Ultra 5 225F",
-      "url": "https://kakaku.com/item/K0001673196/",
-      "message": "resolved"
-    },
-    {
-      "line": 14,
-      "name": "Intel Core i9-14900K",
-      "url": "https://kakaku.com/item/K0001613789/",
-      "message": "resolved"
-    },
-    {
-      "line": 15,
-      "name": "Intel Core i9-14900KF",
-      "url": "https://kakaku.com/item/K0001577322/",
-      "message": "resolved"
-    },
-    {
-      "line": 16,
-      "name": "Intel Core i9-14900",
-      "url": "https://kakaku.com/item/K0001633874/",
-      "message": "resolved"
-    },
-    {
-      "line": 17,
-      "name": "Intel Core i9-14900F",
-      "url": "https://kakaku.com/item/K0001596164/",
+      "url": "https://kakaku.com/item/K0001673195/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 18,
+      "operation": "resolve",
       "name": "Intel Core i7-14700K",
-      "url": "https://kakaku.com/item/K0001577324/",
-      "message": "resolved"
-    },
-    {
-      "line": 19,
-      "name": "Intel Core i7-14700KF",
-      "url": "https://kakaku.com/item/K0001577324/",
+      "url": "https://kakaku.com/item/K0001577323/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 20,
+      "operation": "resolve",
       "name": "Intel Core i7-14700",
-      "url": "https://kakaku.com/item/K0001596166/",
-      "message": "resolved"
-    },
-    {
-      "line": 21,
-      "name": "Intel Core i7-14700F",
-      "url": "https://kakaku.com/item/K0001596166/",
+      "url": "https://kakaku.com/item/K0001596165/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 22,
+      "operation": "resolve",
       "name": "Intel Core i5-14600K",
-      "url": "https://kakaku.com/item/K0001577326/",
-      "message": "resolved"
-    },
-    {
-      "line": 23,
-      "name": "Intel Core i5-14600KF",
-      "url": "https://kakaku.com/item/K0001577326/",
+      "url": "https://kakaku.com/item/K0001577325/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 24,
+      "operation": "resolve",
       "name": "Intel Core i5-14600",
-      "url": "https://kakaku.com/item/K0001577326/",
-      "message": "resolved"
-    },
-    {
-      "line": 25,
-      "name": "Intel Core i5-14500",
-      "url": "https://kakaku.com/item/K0001596167/",
-      "message": "resolved"
+      "url": "",
+      "kept": false,
+      "message": "No exact item candidate on Kakaku search"
     },
     {
       "line": 26,
+      "operation": "resolve",
       "name": "Intel Core i5-14400",
-      "url": "https://kakaku.com/item/K0001596169/",
-      "message": "resolved"
-    },
-    {
-      "line": 27,
-      "name": "Intel Core i5-14400F",
-      "url": "https://kakaku.com/item/K0001596169/",
+      "url": "https://kakaku.com/item/K0001596168/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 28,
+      "operation": "resolve",
       "name": "Intel Core i3-14100",
-      "url": "https://kakaku.com/item/K0001596171/",
-      "message": "resolved"
-    },
-    {
-      "line": 29,
-      "name": "Intel Core i3-14100F",
-      "url": "https://kakaku.com/item/K0001596171/",
-      "message": "resolved"
-    },
-    {
-      "line": 30,
-      "name": "Intel Core i9-13900K",
-      "url": "https://kakaku.com/item/K0001508680/",
-      "message": "resolved"
-    },
-    {
-      "line": 31,
-      "name": "Intel Core i9-13900KF",
-      "url": "https://kakaku.com/item/K0001476106/",
+      "url": "https://kakaku.com/item/K0001596170/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 32,
+      "operation": "resolve",
       "name": "Intel Core i9-13900",
-      "url": "https://kakaku.com/item/K0001508680/",
-      "message": "resolved"
-    },
-    {
-      "line": 33,
-      "name": "Intel Core i9-13900F",
-      "url": "https://kakaku.com/item/K0001506427/",
+      "url": "https://kakaku.com/item/K0001506426/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 34,
+      "operation": "resolve",
       "name": "Intel Core i7-13700K",
-      "url": "https://kakaku.com/item/K0001476108/",
-      "message": "resolved"
-    },
-    {
-      "line": 36,
-      "name": "Intel Core i7-13700",
-      "url": "https://kakaku.com/item/K0001625312/",
-      "message": "resolved"
-    },
-    {
-      "line": 37,
-      "name": "Intel Core i7-13700F",
-      "url": "https://kakaku.com/item/K0001506429/",
+      "url": "https://kakaku.com/item/K0001476107/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 38,
+      "operation": "resolve",
       "name": "Intel Core i5-13600K",
-      "url": "https://kakaku.com/item/K0001476110/",
-      "message": "resolved"
-    },
-    {
-      "line": 39,
-      "name": "Intel Core i5-13600KF",
-      "url": "https://kakaku.com/item/K0001476110/",
+      "url": "https://kakaku.com/item/K0001476109/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 40,
+      "operation": "resolve",
       "name": "Intel Core i5-13600",
-      "url": "https://kakaku.com/item/K0001476110/",
-      "message": "resolved"
-    },
-    {
-      "line": 41,
-      "name": "Intel Core i5-13500",
-      "url": "https://kakaku.com/item/K0001539011/",
-      "message": "resolved"
+      "url": "",
+      "kept": false,
+      "message": "No exact item candidate on Kakaku search"
     },
     {
       "line": 42,
+      "operation": "resolve",
       "name": "Intel Core i5-13400",
-      "url": "https://kakaku.com/item/K0001506432/",
-      "message": "resolved"
-    },
-    {
-      "line": 43,
-      "name": "Intel Core i5-13400F",
-      "url": "https://kakaku.com/item/K0001506432/",
+      "url": "https://kakaku.com/item/K0001506431/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 44,
+      "operation": "resolve",
       "name": "Intel Core i3-13100",
-      "url": "https://kakaku.com/item/K0001506434/",
-      "message": "resolved"
-    },
-    {
-      "line": 45,
-      "name": "Intel Core i3-13100F",
-      "url": "https://kakaku.com/item/K0001506434/",
-      "message": "resolved"
-    },
-    {
-      "line": 46,
-      "name": "Intel Core i9-12900K",
-      "url": "https://kakaku.com/item/K0001431949/",
-      "message": "resolved"
-    },
-    {
-      "line": 47,
-      "name": "Intel Core i9-12900KF",
-      "url": "https://kakaku.com/item/K0001395717/",
+      "url": "https://kakaku.com/item/K0001506433/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 48,
+      "operation": "resolve",
       "name": "Intel Core i9-12900",
-      "url": "https://kakaku.com/item/K0001431949/",
-      "message": "resolved"
-    },
-    {
-      "line": 49,
-      "name": "Intel Core i9-12900F",
-      "url": "https://kakaku.com/item/K0001413989/",
+      "url": "https://kakaku.com/item/K0001413988/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 50,
+      "operation": "resolve",
       "name": "Intel Core i7-12700K",
-      "url": "https://kakaku.com/item/K0001395719/",
-      "message": "resolved"
-    },
-    {
-      "line": 51,
-      "name": "Intel Core i7-12700KF",
-      "url": "https://kakaku.com/item/K0001395719/",
+      "url": "https://kakaku.com/item/K0001395718/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 52,
+      "operation": "resolve",
       "name": "Intel Core i7-12700",
-      "url": "https://kakaku.com/item/K0001714216/",
-      "message": "resolved"
-    },
-    {
-      "line": 53,
-      "name": "Intel Core i7-12700F",
-      "url": "https://kakaku.com/item/K0001413991/",
+      "url": "https://kakaku.com/item/K0001413990/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 54,
+      "operation": "resolve",
       "name": "Intel Core i5-12600K",
-      "url": "https://kakaku.com/item/K0001395721/",
-      "message": "resolved"
-    },
-    {
-      "line": 55,
-      "name": "Intel Core i5-12600KF",
-      "url": "https://kakaku.com/item/K0001395721/",
-      "message": "resolved"
-    },
-    {
-      "line": 56,
-      "name": "Intel Core i5-12600",
-      "url": "https://kakaku.com/item/K0001413992/",
-      "message": "resolved"
-    },
-    {
-      "line": 57,
-      "name": "Intel Core i5-12500",
-      "url": "https://kakaku.com/item/K0001413993/",
+      "url": "https://kakaku.com/item/K0001395720/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 58,
+      "operation": "resolve",
       "name": "Intel Core i5-12400",
-      "url": "https://kakaku.com/item/K0001413995/",
-      "message": "resolved"
-    },
-    {
-      "line": 59,
-      "name": "Intel Core i5-12400F",
-      "url": "https://kakaku.com/item/K0001413995/",
-      "message": "resolved"
-    },
-    {
-      "line": 60,
-      "name": "Intel Core i3-12300",
-      "url": "https://kakaku.com/item/K0001413996/",
+      "url": "https://kakaku.com/item/K0001413994/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 61,
+      "operation": "resolve",
       "name": "Intel Core i3-12100",
-      "url": "https://kakaku.com/item/K0001413998/",
-      "message": "resolved"
-    },
-    {
-      "line": 62,
-      "name": "Intel Core i3-12100F",
-      "url": "https://kakaku.com/item/K0001413998/",
-      "message": "resolved"
-    },
-    {
-      "line": 63,
-      "name": "AMD Ryzen 9 9950X3D2",
-      "url": "https://kakaku.com/item/K0001782911/",
+      "url": "https://kakaku.com/item/K0001413997/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 64,
+      "operation": "resolve",
       "name": "AMD Ryzen 9 9950X3D",
-      "url": "https://kakaku.com/item/K0001782911/",
+      "url": "https://kakaku.com/item/K0001670215/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 65,
+      "operation": "resolve",
       "name": "AMD Ryzen 9 9950X",
-      "url": "https://kakaku.com/item/K0001782911/",
-      "message": "resolved"
-    },
-    {
-      "line": 66,
-      "name": "AMD Ryzen 9 9900X3D",
-      "url": "https://kakaku.com/item/K0001670216/",
+      "url": "https://kakaku.com/item/K0001630330/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 67,
+      "operation": "resolve",
       "name": "AMD Ryzen 9 9900X",
-      "url": "https://kakaku.com/item/K0001670216/",
-      "message": "resolved"
-    },
-    {
-      "line": 68,
-      "name": "AMD Ryzen 7 9800X3D",
-      "url": "https://kakaku.com/item/K0001661801/",
-      "message": "resolved"
-    },
-    {
-      "line": 69,
-      "name": "AMD Ryzen 7 9700X",
-      "url": "https://kakaku.com/item/K0001630332/",
+      "url": "https://kakaku.com/item/K0001630331/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 70,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 9700",
-      "url": "https://kakaku.com/item/K0001630332/",
-      "message": "resolved"
+      "url": "",
+      "kept": false,
+      "message": "No exact item candidate on Kakaku search"
     },
     {
       "line": 71,
+      "operation": "resolve",
       "name": "AMD Ryzen 5 9600X3D",
       "url": "",
+      "kept": false,
       "message": "404 Client Error: Not Found for url: https://search.kakaku.com/AMD%20Ryzen%205%209600X3D%20BOX/"
     },
     {
-      "line": 72,
-      "name": "AMD Ryzen 5 9600X",
-      "url": "https://kakaku.com/item/K0001630333/",
-      "message": "resolved"
-    },
-    {
-      "line": 73,
-      "name": "AMD Ryzen 5 9600",
-      "url": "https://kakaku.com/item/K0001680188/",
-      "message": "resolved"
-    },
-    {
-      "line": 74,
-      "name": "AMD Ryzen 7 8700G",
-      "url": "https://kakaku.com/item/K0001708081/",
-      "message": "resolved"
-    },
-    {
-      "line": 75,
-      "name": "AMD Ryzen 5 8600G",
-      "url": "https://kakaku.com/item/K0001603516/",
-      "message": "resolved"
-    },
-    {
-      "line": 76,
-      "name": "AMD Ryzen 5 8500G",
-      "url": "https://kakaku.com/item/K0001603517/",
-      "message": "resolved"
-    },
-    {
       "line": 77,
+      "operation": "resolve",
       "name": "AMD Ryzen 3 8300G",
       "url": "",
+      "kept": false,
       "message": "404 Client Error: Not Found for url: https://search.kakaku.com/AMD%20Ryzen%203%208300G%20BOX/"
     },
     {
-      "line": 78,
-      "name": "AMD Ryzen 9 7950X3D",
-      "url": "https://kakaku.com/item/K0001507442/",
-      "message": "resolved"
-    },
-    {
       "line": 79,
+      "operation": "resolve",
       "name": "AMD Ryzen 9 7950X",
-      "url": "https://kakaku.com/item/K0001507442/",
-      "message": "resolved"
-    },
-    {
-      "line": 80,
-      "name": "AMD Ryzen 9 7900X3D",
-      "url": "https://kakaku.com/item/K0001507443/",
+      "url": "https://kakaku.com/item/K0001467703/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 81,
+      "operation": "resolve",
       "name": "AMD Ryzen 9 7900X",
-      "url": "https://kakaku.com/item/K0001507443/",
-      "message": "resolved"
-    },
-    {
-      "line": 82,
-      "name": "AMD Ryzen 9 7900",
-      "url": "https://kakaku.com/item/K0001507445/",
-      "message": "resolved"
-    },
-    {
-      "line": 83,
-      "name": "AMD Ryzen 7 7800X3D",
-      "url": "https://kakaku.com/item/K0001507444/",
+      "url": "https://kakaku.com/item/K0001467704/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 84,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 7700X",
-      "url": "https://kakaku.com/item/K0001794004/",
+      "url": "https://kakaku.com/item/K0001562491/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 85,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 7700",
-      "url": "https://kakaku.com/item/K0001794004/",
-      "message": "resolved"
-    },
-    {
-      "line": 86,
-      "name": "AMD Ryzen 5 7600X",
-      "url": "https://kakaku.com/item/K0001562492/",
-      "message": "resolved"
-    },
-    {
-      "line": 87,
-      "name": "AMD Ryzen 5 7600",
-      "url": "https://kakaku.com/item/K0001507447/",
+      "url": "https://kakaku.com/item/K0001711744/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 88,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 6700G",
       "url": "",
+      "kept": false,
       "message": "404 Client Error: Not Found for url: https://search.kakaku.com/AMD%20Ryzen%207%206700G%20BOX/"
     },
     {
       "line": 89,
+      "operation": "resolve",
       "name": "AMD Ryzen 5 6600G",
       "url": "",
+      "kept": false,
       "message": "404 Client Error: Not Found for url: https://search.kakaku.com/AMD%20Ryzen%205%206600G%20BOX/"
     },
     {
-      "line": 90,
-      "name": "AMD Ryzen 9 5950X",
-      "url": "https://kakaku.com/item/K0001299536/",
-      "message": "resolved"
-    },
-    {
-      "line": 91,
-      "name": "AMD Ryzen 9 5900X",
-      "url": "https://kakaku.com/item/K0001630334/",
-      "message": "resolved"
-    },
-    {
       "line": 92,
+      "operation": "resolve",
       "name": "AMD Ryzen 9 5900",
-      "url": "https://kakaku.com/item/K0001630334/",
-      "message": "resolved"
-    },
-    {
-      "line": 93,
-      "name": "AMD Ryzen 7 5800X3D",
-      "url": "https://kakaku.com/item/K0001791618/",
-      "message": "resolved"
+      "url": "",
+      "kept": false,
+      "message": "No exact item candidate on Kakaku search"
     },
     {
       "line": 94,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 5800X",
-      "url": "https://kakaku.com/item/K0001791618/",
+      "url": "https://kakaku.com/item/K0001780957/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 95,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 5800",
-      "url": "https://kakaku.com/item/K0001791618/",
-      "message": "resolved"
-    },
-    {
-      "line": 96,
-      "name": "AMD Ryzen 7 5700X3D",
-      "url": "https://kakaku.com/item/K0001603511/",
-      "message": "resolved"
+      "url": "",
+      "kept": false,
+      "message": "No exact item candidate on Kakaku search"
     },
     {
       "line": 97,
+      "operation": "resolve",
       "name": "AMD Ryzen 7 5700X",
-      "url": "https://kakaku.com/item/K0001603511/",
-      "message": "resolved"
-    },
-    {
-      "line": 98,
-      "name": "AMD Ryzen 7 5700G",
-      "url": "https://kakaku.com/item/K0001359218/",
-      "message": "resolved"
-    },
-    {
-      "line": 99,
-      "name": "AMD Ryzen 7 5700",
-      "url": "https://kakaku.com/item/K0001603512/",
+      "url": "https://kakaku.com/item/K0001546309/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 100,
+      "operation": "resolve",
       "name": "AMD Ryzen 5 5600X3D",
       "url": "",
+      "kept": false,
       "message": "404 Client Error: Not Found for url: https://search.kakaku.com/AMD%20Ryzen%205%205600X3D%20BOX/"
     },
     {
-      "line": 101,
-      "name": "AMD Ryzen 5 5600X",
-      "url": "https://kakaku.com/item/K0001661917/",
-      "message": "resolved"
-    },
-    {
-      "line": 102,
-      "name": "AMD Ryzen 5 5600G",
-      "url": "https://kakaku.com/item/K0001603513/",
-      "message": "resolved"
-    },
-    {
       "line": 103,
+      "operation": "resolve",
       "name": "AMD Ryzen 5 5600",
-      "url": "https://kakaku.com/item/K0001661917/",
+      "url": "https://kakaku.com/item/K0001661916/",
+      "kept": true,
       "message": "resolved"
     },
     {
       "line": 104,
+      "operation": "resolve",
       "name": "AMD Ryzen 5 5500",
-      "url": "https://kakaku.com/item/K0001603514/",
-      "message": "resolved"
-    },
-    {
-      "line": 105,
-      "name": "AMD Ryzen 3 5300G",
-      "url": "https://kakaku.com/item/K0001661915/",
-      "message": "resolved"
-    },
-    {
-      "line": 106,
-      "name": "NVIDIA GeForce RTX 5090",
-      "url": "https://kakaku.com/item/K0001792574/",
-      "message": "resolved"
-    },
-    {
-      "line": 107,
-      "name": "NVIDIA GeForce RTX 5080",
-      "url": "https://kakaku.com/item/K0001794263/",
-      "message": "resolved"
-    },
-    {
-      "line": 108,
-      "name": "NVIDIA GeForce RTX 5070 Ti",
-      "url": "https://kakaku.com/item/K0001794694/",
-      "message": "resolved"
-    },
-    {
-      "line": 109,
-      "name": "NVIDIA GeForce RTX 5070",
-      "url": "https://kakaku.com/item/K0001717841/",
-      "message": "resolved"
-    },
-    {
-      "line": 110,
-      "name": "NVIDIA GeForce RTX 5060 Ti",
-      "url": "https://kakaku.com/item/K0001794695/",
-      "message": "resolved"
-    },
-    {
-      "line": 111,
-      "name": "NVIDIA GeForce RTX 5060",
-      "url": "https://kakaku.com/item/K0001785655/",
-      "message": "resolved"
-    },
-    {
-      "line": 112,
-      "name": "NVIDIA GeForce RTX 5050",
-      "url": "https://kakaku.com/item/K0001700743/",
-      "message": "resolved"
-    },
-    {
-      "line": 113,
-      "name": "NVIDIA GeForce RTX 4090",
-      "url": "https://kakaku.com/item/K0001654841/",
-      "message": "resolved"
-    },
-    {
-      "line": 114,
-      "name": "NVIDIA GeForce RTX 4080 SUPER",
-      "url": "https://kakaku.com/item/K0001673886/",
-      "message": "resolved"
-    },
-    {
-      "line": 115,
-      "name": "NVIDIA GeForce RTX 4080",
-      "url": "https://kakaku.com/item/K0001603882/",
-      "message": "resolved"
-    },
-    {
-      "line": 116,
-      "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
-      "url": "https://kakaku.com/item/K0001663227/",
-      "message": "resolved"
-    },
-    {
-      "line": 117,
-      "name": "NVIDIA GeForce RTX 4070 Ti",
-      "url": "https://kakaku.com/item/K0001625064/",
-      "message": "resolved"
-    },
-    {
-      "line": 118,
-      "name": "NVIDIA GeForce RTX 4070 SUPER",
-      "url": "https://kakaku.com/item/K0001634694/",
-      "message": "resolved"
-    },
-    {
-      "line": 119,
-      "name": "NVIDIA GeForce RTX 4070",
-      "url": "https://kakaku.com/item/K0001625064/",
-      "message": "resolved"
-    },
-    {
-      "line": 120,
-      "name": "NVIDIA GeForce RTX 4060 Ti",
-      "url": "https://kakaku.com/item/K0001696404/",
-      "message": "resolved"
-    },
-    {
-      "line": 121,
-      "name": "NVIDIA GeForce RTX 4060",
-      "url": "https://kakaku.com/item/K0001696404/",
-      "message": "resolved"
-    },
-    {
-      "line": 122,
-      "name": "NVIDIA GeForce RTX 3090 Ti",
-      "url": "https://kakaku.com/item/K0001445733/",
-      "message": "resolved"
-    },
-    {
-      "line": 123,
-      "name": "NVIDIA GeForce RTX 3090",
-      "url": "https://kakaku.com/item/K0001445733/",
-      "message": "resolved"
-    },
-    {
-      "line": 124,
-      "name": "NVIDIA GeForce RTX 3080 Ti",
-      "url": "https://kakaku.com/item/K0001422990/",
-      "message": "resolved"
-    },
-    {
-      "line": 125,
-      "name": "NVIDIA GeForce RTX 3080",
-      "url": "https://kakaku.com/item/K0001424968/",
-      "message": "resolved"
-    },
-    {
-      "line": 126,
-      "name": "NVIDIA GeForce RTX 3070 Ti",
-      "url": "https://kakaku.com/item/K0001511650/",
-      "message": "resolved"
-    },
-    {
-      "line": 127,
-      "name": "NVIDIA GeForce RTX 3070",
-      "url": "https://kakaku.com/item/K0001511650/",
-      "message": "resolved"
-    },
-    {
-      "line": 128,
-      "name": "NVIDIA GeForce RTX 3060 Ti",
-      "url": "https://kakaku.com/item/K0001795496/",
-      "message": "resolved"
-    },
-    {
-      "line": 129,
-      "name": "NVIDIA GeForce RTX 3060",
-      "url": "https://kakaku.com/item/K0001795496/",
-      "message": "resolved"
-    },
-    {
-      "line": 130,
-      "name": "NVIDIA GeForce RTX 3050",
-      "url": "https://kakaku.com/item/K0001766244/",
-      "message": "resolved"
-    },
-    {
-      "line": 131,
-      "name": "AMD Radeon RX 7900 XTX",
-      "url": "https://kakaku.com/item/K0001640849/",
-      "message": "resolved"
-    },
-    {
-      "line": 132,
-      "name": "AMD Radeon RX 7900 XT",
-      "url": "https://kakaku.com/item/K0001676050/",
-      "message": "resolved"
-    },
-    {
-      "line": 133,
-      "name": "AMD Radeon RX 7900 GRE",
-      "url": "https://kakaku.com/item/K0001618616/",
-      "message": "resolved"
-    },
-    {
-      "line": 134,
-      "name": "AMD Radeon RX 7800 XT",
-      "url": "https://kakaku.com/item/K0001585306/",
-      "message": "resolved"
-    },
-    {
-      "line": 135,
-      "name": "AMD Radeon RX 7700 XT",
-      "url": "",
-      "message": "Candidates found but none passed token/category verification (7700)"
-    },
-    {
-      "line": 136,
-      "name": "AMD Radeon RX 7600 XT",
-      "url": "",
-      "message": "Candidates found but none passed token/category verification (7600)"
-    },
-    {
-      "line": 137,
-      "name": "AMD Radeon RX 7600",
-      "url": "https://kakaku.com/item/K0001693613/",
-      "message": "resolved"
-    },
-    {
-      "line": 138,
-      "name": "AMD Radeon RX 6950 XT",
-      "url": "https://kakaku.com/item/K0001522755/",
-      "message": "resolved"
-    },
-    {
-      "line": 139,
-      "name": "AMD Radeon RX 6900 XT",
-      "url": "https://kakaku.com/item/K0001362990/",
-      "message": "resolved"
-    },
-    {
-      "line": 140,
-      "name": "AMD Radeon RX 6800 XT",
-      "url": "https://kakaku.com/item/K0001417956/",
-      "message": "resolved"
-    },
-    {
-      "line": 141,
-      "name": "AMD Radeon RX 6800",
-      "url": "https://kakaku.com/item/K0001417956/",
-      "message": "resolved"
-    },
-    {
-      "line": 142,
-      "name": "AMD Radeon RX 6750 XT",
-      "url": "",
-      "message": "Candidates found but none passed token/category verification (6750)"
-    },
-    {
-      "line": 143,
-      "name": "AMD Radeon RX 6700 XT",
-      "url": "https://kakaku.com/item/K0001417957/",
-      "message": "resolved"
-    },
-    {
-      "line": 144,
-      "name": "AMD Radeon RX 6700",
-      "url": "https://kakaku.com/item/K0001417957/",
-      "message": "resolved"
-    },
-    {
-      "line": 145,
-      "name": "AMD Radeon RX 6650 XT",
-      "url": "https://kakaku.com/item/K0001593967/",
-      "message": "resolved"
-    },
-    {
-      "line": 146,
-      "name": "AMD Radeon RX 6600 XT",
-      "url": "https://kakaku.com/item/K0001402781/",
-      "message": "resolved"
-    },
-    {
-      "line": 147,
-      "name": "AMD Radeon RX 6600",
-      "url": "https://kakaku.com/item/K0001633850/",
-      "message": "resolved"
-    },
-    {
-      "line": 148,
-      "name": "AMD Radeon RX 6500 XT",
-      "url": "https://kakaku.com/item/K0001636513/",
-      "message": "resolved"
-    },
-    {
-      "line": 149,
-      "name": "AMD Radeon RX 6400",
-      "url": "https://kakaku.com/item/K0001436887/",
+      "url": "https://kakaku.com/item/K0001429755/",
+      "kept": true,
       "message": "resolved"
     }
   ]

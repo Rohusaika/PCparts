@@ -1,73 +1,73 @@
 ﻿enabled,category,group,name,sortScore,kakakuUrl,sourceMode
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 9 285K,209285,https://kakaku.com/item/K0001658283/,fetch
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 9 285,209284,https://kakaku.com/item/K0001679401/,fetch
-1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265K,207265,https://kakaku.com/item/K0001658285/,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265K,207265,https://kakaku.com/item/K0001658284/,fetch
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265KF,207264,https://kakaku.com/item/K0001658285/,fetch
-1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265,207263,https://kakaku.com/item/K0001678741/,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265,207263,https://kakaku.com/item/K0001677984/,fetch
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 7 265F,207262,https://kakaku.com/item/K0001678741/,fetch
-1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245K,205245,https://kakaku.com/item/K0001658287/,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245K,205245,https://kakaku.com/item/K0001658286/,fetch
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245KF,205244,https://kakaku.com/item/K0001658287/,fetch
-1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245,205243,https://kakaku.com/item/K0001658287/,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 245,205243,,fetch
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 235,205235,https://kakaku.com/item/K0001673194/,fetch
-1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 225,205225,https://kakaku.com/item/K0001673196/,fetch
+1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 225,205225,https://kakaku.com/item/K0001673195/,fetch
 1,CPU,Intel Core Ultraシリーズ,Intel Core Ultra 5 225F,205224,https://kakaku.com/item/K0001673196/,fetch
 1,CPU,Intel 第14世代,Intel Core i9-14900K,1409494,https://kakaku.com/item/K0001613789/,fetch
 1,CPU,Intel 第14世代,Intel Core i9-14900KF,1409493,https://kakaku.com/item/K0001577322/,fetch
 1,CPU,Intel 第14世代,Intel Core i9-14900,1409492,https://kakaku.com/item/K0001633874/,fetch
 1,CPU,Intel 第14世代,Intel Core i9-14900F,1409491,https://kakaku.com/item/K0001596164/,fetch
-1,CPU,Intel 第14世代,Intel Core i7-14700K,1407474,https://kakaku.com/item/K0001577324/,fetch
+1,CPU,Intel 第14世代,Intel Core i7-14700K,1407474,https://kakaku.com/item/K0001577323/,fetch
 1,CPU,Intel 第14世代,Intel Core i7-14700KF,1407473,https://kakaku.com/item/K0001577324/,fetch
-1,CPU,Intel 第14世代,Intel Core i7-14700,1407472,https://kakaku.com/item/K0001596166/,fetch
+1,CPU,Intel 第14世代,Intel Core i7-14700,1407472,https://kakaku.com/item/K0001596165/,fetch
 1,CPU,Intel 第14世代,Intel Core i7-14700F,1407471,https://kakaku.com/item/K0001596166/,fetch
-1,CPU,Intel 第14世代,Intel Core i5-14600K,1405464,https://kakaku.com/item/K0001577326/,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14600K,1405464,https://kakaku.com/item/K0001577325/,fetch
 1,CPU,Intel 第14世代,Intel Core i5-14600KF,1405463,https://kakaku.com/item/K0001577326/,fetch
-1,CPU,Intel 第14世代,Intel Core i5-14600,1405462,https://kakaku.com/item/K0001577326/,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14600,1405462,,fetch
 1,CPU,Intel 第14世代,Intel Core i5-14500,1405450,https://kakaku.com/item/K0001596167/,fetch
-1,CPU,Intel 第14世代,Intel Core i5-14400,1405442,https://kakaku.com/item/K0001596169/,fetch
+1,CPU,Intel 第14世代,Intel Core i5-14400,1405442,https://kakaku.com/item/K0001596168/,fetch
 1,CPU,Intel 第14世代,Intel Core i5-14400F,1405441,https://kakaku.com/item/K0001596169/,fetch
-1,CPU,Intel 第14世代,Intel Core i3-14100,1403412,https://kakaku.com/item/K0001596171/,fetch
+1,CPU,Intel 第14世代,Intel Core i3-14100,1403412,https://kakaku.com/item/K0001596170/,fetch
 1,CPU,Intel 第14世代,Intel Core i3-14100F,1403411,https://kakaku.com/item/K0001596171/,fetch
 1,CPU,Intel 第13世代,Intel Core i9-13900K,1309394,https://kakaku.com/item/K0001508680/,fetch
 1,CPU,Intel 第13世代,Intel Core i9-13900KF,1309393,https://kakaku.com/item/K0001476106/,fetch
-1,CPU,Intel 第13世代,Intel Core i9-13900,1309392,https://kakaku.com/item/K0001508680/,fetch
+1,CPU,Intel 第13世代,Intel Core i9-13900,1309392,https://kakaku.com/item/K0001506426/,fetch
 1,CPU,Intel 第13世代,Intel Core i9-13900F,1309391,https://kakaku.com/item/K0001506427/,fetch
-1,CPU,Intel 第13世代,Intel Core i7-13700K,1307374,https://kakaku.com/item/K0001476108/,fetch
+1,CPU,Intel 第13世代,Intel Core i7-13700K,1307374,https://kakaku.com/item/K0001476107/,fetch
 1,CPU,Intel 第13世代,Intel Core i7-13700KF,1307373,https://kakaku.com/item/K0001476108/,fetch
 1,CPU,Intel 第13世代,Intel Core i7-13700,1307372,https://kakaku.com/item/K0001625312/,fetch
 1,CPU,Intel 第13世代,Intel Core i7-13700F,1307371,https://kakaku.com/item/K0001506429/,fetch
-1,CPU,Intel 第13世代,Intel Core i5-13600K,1305364,https://kakaku.com/item/K0001476110/,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13600K,1305364,https://kakaku.com/item/K0001476109/,fetch
 1,CPU,Intel 第13世代,Intel Core i5-13600KF,1305363,https://kakaku.com/item/K0001476110/,fetch
-1,CPU,Intel 第13世代,Intel Core i5-13600,1305362,https://kakaku.com/item/K0001476110/,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13600,1305362,,fetch
 1,CPU,Intel 第13世代,Intel Core i5-13500,1305350,https://kakaku.com/item/K0001539011/,fetch
-1,CPU,Intel 第13世代,Intel Core i5-13400,1305342,https://kakaku.com/item/K0001506432/,fetch
+1,CPU,Intel 第13世代,Intel Core i5-13400,1305342,https://kakaku.com/item/K0001506431/,fetch
 1,CPU,Intel 第13世代,Intel Core i5-13400F,1305341,https://kakaku.com/item/K0001506432/,fetch
-1,CPU,Intel 第13世代,Intel Core i3-13100,1303312,https://kakaku.com/item/K0001506434/,fetch
+1,CPU,Intel 第13世代,Intel Core i3-13100,1303312,https://kakaku.com/item/K0001506433/,fetch
 1,CPU,Intel 第13世代,Intel Core i3-13100F,1303311,https://kakaku.com/item/K0001506434/,fetch
 1,CPU,Intel 第12世代,Intel Core i9-12900K,1209294,https://kakaku.com/item/K0001431949/,fetch
 1,CPU,Intel 第12世代,Intel Core i9-12900KF,1209293,https://kakaku.com/item/K0001395717/,fetch
-1,CPU,Intel 第12世代,Intel Core i9-12900,1209292,https://kakaku.com/item/K0001431949/,fetch
+1,CPU,Intel 第12世代,Intel Core i9-12900,1209292,https://kakaku.com/item/K0001413988/,fetch
 1,CPU,Intel 第12世代,Intel Core i9-12900F,1209291,https://kakaku.com/item/K0001413989/,fetch
-1,CPU,Intel 第12世代,Intel Core i7-12700K,1207274,https://kakaku.com/item/K0001395719/,fetch
+1,CPU,Intel 第12世代,Intel Core i7-12700K,1207274,https://kakaku.com/item/K0001395718/,fetch
 1,CPU,Intel 第12世代,Intel Core i7-12700KF,1207273,https://kakaku.com/item/K0001395719/,fetch
-1,CPU,Intel 第12世代,Intel Core i7-12700,1207272,https://kakaku.com/item/K0001714216/,fetch
+1,CPU,Intel 第12世代,Intel Core i7-12700,1207272,https://kakaku.com/item/K0001413990/,fetch
 1,CPU,Intel 第12世代,Intel Core i7-12700F,1207271,https://kakaku.com/item/K0001413991/,fetch
-1,CPU,Intel 第12世代,Intel Core i5-12600K,1205264,https://kakaku.com/item/K0001395721/,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12600K,1205264,https://kakaku.com/item/K0001395720/,fetch
 1,CPU,Intel 第12世代,Intel Core i5-12600KF,1205263,https://kakaku.com/item/K0001395721/,fetch
 1,CPU,Intel 第12世代,Intel Core i5-12600,1205262,https://kakaku.com/item/K0001413992/,fetch
 1,CPU,Intel 第12世代,Intel Core i5-12500,1205250,https://kakaku.com/item/K0001413993/,fetch
-1,CPU,Intel 第12世代,Intel Core i5-12400,1205242,https://kakaku.com/item/K0001413995/,fetch
+1,CPU,Intel 第12世代,Intel Core i5-12400,1205242,https://kakaku.com/item/K0001413994/,fetch
 1,CPU,Intel 第12世代,Intel Core i5-12400F,1205241,https://kakaku.com/item/K0001413995/,fetch
 1,CPU,Intel 第12世代,Intel Core i3-12300,1203230,https://kakaku.com/item/K0001413996/,fetch
-1,CPU,Intel 第12世代,Intel Core i3-12100,1203212,https://kakaku.com/item/K0001413998/,fetch
+1,CPU,Intel 第12世代,Intel Core i3-12100,1203212,https://kakaku.com/item/K0001413997/,fetch
 1,CPU,Intel 第12世代,Intel Core i3-12100F,1203211,https://kakaku.com/item/K0001413998/,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X3D2,900099999,https://kakaku.com/item/K0001782911/,fetch
-1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X3D,900099998,https://kakaku.com/item/K0001782911/,fetch
-1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X,900099950,https://kakaku.com/item/K0001782911/,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X3D,900099998,https://kakaku.com/item/K0001670215/,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9950X,900099950,https://kakaku.com/item/K0001630330/,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9900X3D,900099908,https://kakaku.com/item/K0001670216/,fetch
-1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9900X,900099900,https://kakaku.com/item/K0001670216/,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 9 9900X,900099900,https://kakaku.com/item/K0001630331/,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9800X3D,900079880,https://kakaku.com/item/K0001661801/,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9700X,900079700,https://kakaku.com/item/K0001630332/,fetch
-1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9700,900079690,https://kakaku.com/item/K0001630332/,fetch
+1,CPU,AMD Ryzen 9000,AMD Ryzen 7 9700,900079690,,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 5 9600X3D,900059608,,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 5 9600X,900059600,https://kakaku.com/item/K0001630333/,fetch
 1,CPU,AMD Ryzen 9000,AMD Ryzen 5 9600,900059590,https://kakaku.com/item/K0001680188/,fetch
@@ -76,56 +76,56 @@
 1,CPU,AMD Ryzen 8000,AMD Ryzen 5 8500G,800058500,https://kakaku.com/item/K0001603517/,fetch
 1,CPU,AMD Ryzen 8000,AMD Ryzen 3 8300G,800038300,,fetch
 1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7950X3D,700099798,https://kakaku.com/item/K0001507442/,fetch
-1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7950X,700099750,https://kakaku.com/item/K0001507442/,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7950X,700099750,https://kakaku.com/item/K0001467703/,fetch
 1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900X3D,700099708,https://kakaku.com/item/K0001507443/,fetch
-1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900X,700099700,https://kakaku.com/item/K0001507443/,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900X,700099700,https://kakaku.com/item/K0001467704/,fetch
 1,CPU,AMD Ryzen 7000,AMD Ryzen 9 7900,700099690,https://kakaku.com/item/K0001507445/,fetch
 1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7800X3D,700079780,https://kakaku.com/item/K0001507444/,fetch
-1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7700X,700079700,https://kakaku.com/item/K0001794004/,fetch
-1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7700,700079690,https://kakaku.com/item/K0001794004/,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7700X,700079700,https://kakaku.com/item/K0001562491/,fetch
+1,CPU,AMD Ryzen 7000,AMD Ryzen 7 7700,700079690,https://kakaku.com/item/K0001711744/,fetch
 1,CPU,AMD Ryzen 7000,AMD Ryzen 5 7600X,700059600,https://kakaku.com/item/K0001562492/,fetch
 1,CPU,AMD Ryzen 7000,AMD Ryzen 5 7600,700059590,https://kakaku.com/item/K0001507447/,fetch
 1,CPU,AMD Ryzen 6000,AMD Ryzen 7 6700G,600076700,,fetch
 1,CPU,AMD Ryzen 6000,AMD Ryzen 5 6600G,600056600,,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5950X,500099550,https://kakaku.com/item/K0001299536/,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5900X,500099500,https://kakaku.com/item/K0001630334/,fetch
-1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5900,500099490,https://kakaku.com/item/K0001630334/,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 9 5900,500099490,,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800X3D,500079580,https://kakaku.com/item/K0001791618/,fetch
-1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800X,500079500,https://kakaku.com/item/K0001791618/,fetch
-1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800,500079490,https://kakaku.com/item/K0001791618/,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800X,500079500,https://kakaku.com/item/K0001780957/,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5800,500079490,,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700X3D,500079570,https://kakaku.com/item/K0001603511/,fetch
-1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700X,500079400,https://kakaku.com/item/K0001603511/,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700X,500079400,https://kakaku.com/item/K0001546309/,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700G,500079480,https://kakaku.com/item/K0001359218/,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 7 5700,500079470,https://kakaku.com/item/K0001603512/,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600X3D,500059568,,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600X,500059560,https://kakaku.com/item/K0001661917/,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600G,500059550,https://kakaku.com/item/K0001603513/,fetch
-1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600,500059540,https://kakaku.com/item/K0001661917/,fetch
-1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5500,500059400,https://kakaku.com/item/K0001603514/,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5600,500059540,https://kakaku.com/item/K0001661916/,fetch
+1,CPU,AMD Ryzen 5000,AMD Ryzen 5 5500,500059400,https://kakaku.com/item/K0001429755/,fetch
 1,CPU,AMD Ryzen 5000,AMD Ryzen 3 5300G,500039300,https://kakaku.com/item/K0001661915/,fetch
 1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5090,50900,https://kakaku.com/item/K0001792574/,fetch
-1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5080,50800,https://kakaku.com/item/K0001794263/,fetch
-1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5070 Ti,50750,https://kakaku.com/item/K0001794694/,fetch
-1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5070,50700,https://kakaku.com/item/K0001717841/,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5080,50800,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5070 Ti,50750,,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5070,50700,,fetch
 1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5060 Ti,50650,https://kakaku.com/item/K0001794695/,fetch
-1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5060,50600,https://kakaku.com/item/K0001785655/,fetch
+1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5060,50600,,fetch
 1,GPU,GeForce RTX 50,NVIDIA GeForce RTX 5050,50500,https://kakaku.com/item/K0001700743/,fetch
 1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4090,40900,https://kakaku.com/item/K0001654841/,fetch
-1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4080 SUPER,40880,https://kakaku.com/item/K0001673886/,fetch
-1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4080,40800,https://kakaku.com/item/K0001603882/,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4080 SUPER,40880,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4080,40800,,fetch
 1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 Ti SUPER,40780,https://kakaku.com/item/K0001663227/,fetch
-1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 Ti,40750,https://kakaku.com/item/K0001625064/,fetch
-1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 SUPER,40730,https://kakaku.com/item/K0001634694/,fetch
-1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070,40700,https://kakaku.com/item/K0001625064/,fetch
-1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4060 Ti,40650,https://kakaku.com/item/K0001696404/,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 Ti,40750,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070 SUPER,40730,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4070,40700,,fetch
+1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4060 Ti,40650,,fetch
 1,GPU,GeForce RTX 40,NVIDIA GeForce RTX 4060,40600,https://kakaku.com/item/K0001696404/,fetch
 1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3090 Ti,30950,https://kakaku.com/item/K0001445733/,fetch
-1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3090,30900,https://kakaku.com/item/K0001445733/,fetch
-1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3080 Ti,30850,https://kakaku.com/item/K0001422990/,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3090,30900,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3080 Ti,30850,,fetch
 1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3080,30800,https://kakaku.com/item/K0001424968/,fetch
 1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3070 Ti,30750,https://kakaku.com/item/K0001511650/,fetch
-1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3070,30700,https://kakaku.com/item/K0001511650/,fetch
-1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3060 Ti,30650,https://kakaku.com/item/K0001795496/,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3070,30700,,fetch
+1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3060 Ti,30650,,fetch
 1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3060,30600,https://kakaku.com/item/K0001795496/,fetch
 1,GPU,GeForce RTX 30,NVIDIA GeForce RTX 3050,30500,https://kakaku.com/item/K0001766244/,fetch
 1,GPU,Radeon RX 7000,AMD Radeon RX 7900 XTX,79990,https://kakaku.com/item/K0001640849/,fetch
@@ -138,10 +138,10 @@
 1,GPU,Radeon RX 6000,AMD Radeon RX 6950 XT,69950,https://kakaku.com/item/K0001522755/,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6900 XT,69900,https://kakaku.com/item/K0001362990/,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6800 XT,69850,https://kakaku.com/item/K0001417956/,fetch
-1,GPU,Radeon RX 6000,AMD Radeon RX 6800,69800,https://kakaku.com/item/K0001417956/,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6800,69800,,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6750 XT,69750,,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6700 XT,69700,https://kakaku.com/item/K0001417957/,fetch
-1,GPU,Radeon RX 6000,AMD Radeon RX 6700,69680,https://kakaku.com/item/K0001417957/,fetch
+1,GPU,Radeon RX 6000,AMD Radeon RX 6700,69680,,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6650 XT,69650,https://kakaku.com/item/K0001593967/,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6600 XT,69600,https://kakaku.com/item/K0001402781/,fetch
 1,GPU,Radeon RX 6000,AMD Radeon RX 6600,69580,https://kakaku.com/item/K0001633850/,fetch
