@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Resolve blank Kakaku.com item URLs in catalog.csv.
+"""Audit and resolve Kakaku.com item URLs conservatively.
 
-This is intentionally a separate, manually-triggered operation. It searches Kakaku.com,
-verifies that a candidate page contains the exact model token and the expected category,
-and writes only high-confidence matches. Unresolved rows remain blank and are recorded in
-url_resolution_report.json rather than being guessed.
+Version 1.4 changes:
+- Existing URLs can be audited and mismatched pages are cleared.
+- CPU candidates require an exact model signature on the item page.
+- Generic GPU families are not auto-resolved by default because one Kakaku item page is
+  one board-partner product, not the cheapest card across the whole GPU family.
+- Unverified candidates remain blank rather than being guessed.
 """
 from __future__ import annotations
 
@@ -15,13 +17,14 @@ import re
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from urllib.parse import quote, urljoin, urlparse
+from urllib.parse import quote, urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
+from update_prices import CatalogItem, model_signature, page_identity, signatures_in_text, normalize
+
 ITEM_RE = re.compile(r"https?://kakaku\.com/item/(K\d+)/?|/item/(K\d+)/?", re.I)
-SPACE_RE = re.compile(r"\s+")
 
 
 @dataclass
@@ -34,26 +37,12 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--catalog", type=Path, default=Path("catalog.csv"))
     parser.add_argument("--report", type=Path, default=Path("url_resolution_report.json"))
-    parser.add_argument("--limit", type=int, default=999, help="Maximum blank fetch rows to attempt.")
+    parser.add_argument("--limit", type=int, default=999)
     parser.add_argument("--sleep", type=float, default=2.0)
     parser.add_argument("--timeout", type=float, default=25.0)
+    parser.add_argument("--audit-existing", action="store_true")
+    parser.add_argument("--include-gpu", action="store_true")
     return parser.parse_args()
-
-
-def normalize(text: str) -> str:
-    return SPACE_RE.sub(" ", text).strip()
-
-
-def model_token(name: str) -> str:
-    patterns = [
-        r"\b\d{3,5}(?:KF|K|F|X3D2|X3D|3D2|3D|X|G)?\b",
-        r"\b(?:RTX|RX)\s*\d{4}(?:\s*Ti(?:\s*SUPER)?|\s*SUPER|\s*XTX|\s*XT|\s*GRE)?\b",
-    ]
-    for pattern in patterns:
-        matches = re.findall(pattern, name, flags=re.I)
-        if matches:
-            return normalize(matches[-1]).upper().replace(" ", "")
-    return normalize(name).upper().replace(" ", "")
 
 
 def canonical_item_url(href: str) -> str | None:
@@ -65,28 +54,28 @@ def canonical_item_url(href: str) -> str | None:
     return f"https://kakaku.com/item/{item_id}/"
 
 
-def category_matches(category: str, heading_text: str, page_text: str) -> bool:
-    heading = heading_text.lower()
-    text = page_text.lower()
-    pc_words = ("デスクトップパソコン", "ノートパソコン", "ゲーミングpc")
-    if any(word in heading for word in pc_words):
-        return False
-    if category == "CPU":
-        return "cpu" in text
-    if category == "GPU":
-        return any(word in text for word in ("グラフィックボード", "ビデオカード"))
-    return False
+def make_item(values: dict[str, str]) -> CatalogItem:
+    return CatalogItem(
+        enabled=values.get("enabled", "1").strip().lower() not in {"0", "false", "no"},
+        category=values.get("category", "").strip(),
+        group=values.get("group", "").strip(),
+        name=values.get("name", "").strip(),
+        sort_score=int(values.get("sortScore", "0") or 0),
+        kakaku_url=values.get("kakakuUrl", "").strip(),
+        source_mode=(values.get("sourceMode", "fetch") or "fetch").strip().lower(),
+    )
 
 
-def token_matches(token: str, text: str) -> bool:
-    compact = re.sub(r"[^A-Z0-9]", "", text.upper())
-    compact_token = re.sub(r"[^A-Z0-9]", "", token.upper())
-    return compact_token in compact
+def fetch_soup(session: requests.Session, url: str, timeout: float) -> BeautifulSoup:
+    response = session.get(url, timeout=timeout)
+    response.raise_for_status()
+    response.encoding = response.apparent_encoding or response.encoding
+    return BeautifulSoup(response.text, "html.parser")
 
 
-def candidate_urls(search_html: str, item_name: str) -> list[str]:
+def candidate_urls(search_html: str, item: CatalogItem) -> list[str]:
     soup = BeautifulSoup(search_html, "html.parser")
-    token = model_token(item_name)
+    expected = model_signature(item.name)
     scored: list[tuple[int, str]] = []
     seen: set[str] = set()
     for anchor in soup.find_all("a", href=True):
@@ -96,42 +85,37 @@ def candidate_urls(search_html: str, item_name: str) -> list[str]:
         seen.add(url)
         context_node = anchor.find_parent(["li", "article", "div", "tr"])
         context = normalize((context_node or anchor).get_text(" ", strip=True))
+        signatures = signatures_in_text(context)
         score = 0
-        if token_matches(token, context):
-            score += 100
-        if "BOX" in context.upper():
-            score += 5
+        if expected and expected in signatures:
+            score += 200
+        if item.category == "CPU" and "BOX" in context.upper():
+            score += 10
         if any(word in context for word in ("デスクトップパソコン", "ノートパソコン", "搭載モデル", "ゲーミングPC")):
-            score -= 100
+            score -= 300
         scored.append((score, url))
     scored.sort(reverse=True)
-    return [url for score, url in scored if score >= 100][:8]
+    return [url for score, url in scored if score >= 200][:12]
 
 
-def resolve_one(session: requests.Session, name: str, category: str, timeout: float) -> tuple[str | None, str]:
-    token = model_token(name)
-    query = name + (" BOX" if category == "CPU" else "")
+def resolve_one(session: requests.Session, item: CatalogItem, timeout: float) -> tuple[str | None, str]:
+    if item.category == "GPU":
+        return None, "GPU family auto-resolution is disabled; use an aggregate/manual source"
+    query = item.name + " BOX"
     search_url = f"https://search.kakaku.com/{quote(query, safe='')}/"
     response = session.get(search_url, timeout=timeout)
     response.raise_for_status()
     response.encoding = response.apparent_encoding or response.encoding
-    urls = candidate_urls(response.text, name)
+    urls = candidate_urls(response.text, item)
     if not urls:
         return None, "No exact item candidate on Kakaku search"
 
     for url in urls:
-        page = session.get(url, timeout=timeout)
-        page.raise_for_status()
-        page.encoding = page.apparent_encoding or page.encoding
-        soup = BeautifulSoup(page.text, "html.parser")
-        title = soup.title.get_text(" ", strip=True) if soup.title else ""
-        h1 = soup.find("h1")
-        heading = h1.get_text(" ", strip=True) if h1 else ""
-        head_text = normalize(f"{title} {heading}")
-        page_text = normalize(soup.get_text(" ", strip=True))[:20000]
-        if token_matches(token, head_text) and category_matches(category, head_text, page_text):
+        soup = fetch_soup(session, url, timeout)
+        ok, reason = page_identity(soup, item)
+        if ok:
             return url, "resolved"
-    return None, f"Candidates found but none passed token/category verification ({token})"
+    return None, "Candidates existed, but no page passed exact model/category verification"
 
 
 def main() -> int:
@@ -153,33 +137,71 @@ def main() -> int:
     })
 
     report: list[dict[str, object]] = []
-    attempted = resolved = 0
+    attempted = resolved = cleared = verified = 0
+
+    if args.audit_existing:
+        for row in rows:
+            item = make_item(row.values)
+            if not item.enabled or item.source_mode != "fetch" or not item.kakaku_url:
+                continue
+            if item.category not in {"CPU", "GPU"}:
+                continue
+            attempted += 1
+            try:
+                soup = fetch_soup(session, item.kakaku_url, args.timeout)
+                ok, message = page_identity(soup, item)
+            except Exception as exc:
+                ok, message = False, str(exc)
+            if ok:
+                verified += 1
+                print(f"VERIFIED {item.name}: {item.kakaku_url}")
+            else:
+                old_url = item.kakaku_url
+                row.values["kakakuUrl"] = ""
+                cleared += 1
+                print(f"CLEARED {item.name}: {old_url} ({message})")
+            report.append({
+                "line": row.index,
+                "operation": "audit",
+                "name": item.name,
+                "url": item.kakaku_url,
+                "kept": ok,
+                "message": message,
+            })
+            if args.sleep > 0:
+                time.sleep(args.sleep)
+
+    resolve_attempts = 0
     for row in rows:
-        values = row.values
-        if values.get("enabled", "1").strip().lower() in {"0", "false", "no"}:
+        item = make_item(row.values)
+        if not item.enabled or item.source_mode != "fetch" or item.kakaku_url:
             continue
-        if (values.get("sourceMode", "fetch") or "fetch").strip().lower() != "fetch":
+        if item.category not in {"CPU", "GPU"}:
             continue
-        if values.get("kakakuUrl", "").strip():
+        if item.category == "GPU" and not args.include_gpu:
             continue
-        category = values.get("category", "").strip()
-        if category not in {"CPU", "GPU"}:
-            continue
-        if attempted >= args.limit:
+        if resolve_attempts >= args.limit:
             break
+        resolve_attempts += 1
         attempted += 1
-        name = values.get("name", "").strip()
         try:
-            url, message = resolve_one(session, name, category, args.timeout)
-        except Exception as exc:  # continue the batch and report failure
+            url, message = resolve_one(session, item, args.timeout)
+        except Exception as exc:
             url, message = None, str(exc)
         if url:
-            values["kakakuUrl"] = url
+            row.values["kakakuUrl"] = url
             resolved += 1
-            print(f"RESOLVED {name}: {url}")
+            print(f"RESOLVED {item.name}: {url}")
         else:
-            print(f"UNRESOLVED {name}: {message}")
-        report.append({"line": row.index, "name": name, "url": url or "", "message": message})
+            print(f"UNRESOLVED {item.name}: {message}")
+        report.append({
+            "line": row.index,
+            "operation": "resolve",
+            "name": item.name,
+            "url": url or "",
+            "kept": bool(url),
+            "message": message,
+        })
         if args.sleep > 0:
             time.sleep(args.sleep)
 
@@ -189,15 +211,18 @@ def main() -> int:
         for row in rows:
             writer.writerow(row.values)
 
-    args.report.write_text(
-        json.dumps(
-            {"attempted": attempted, "resolved": resolved, "unresolved": attempted - resolved, "items": report},
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
+    args.report.write_text(json.dumps({
+        "attempted": attempted,
+        "verified": verified,
+        "cleared": cleared,
+        "resolved": resolved,
+        "unresolved": resolve_attempts - resolved,
+        "items": report,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(
+        f"URL audit/resolution complete: attempted={attempted} verified={verified} "
+        f"cleared={cleared} resolved={resolved} unresolved={resolve_attempts-resolved}"
     )
-    print(f"URL resolution complete: attempted={attempted} resolved={resolved} unresolved={attempted-resolved}")
     return 0
 
 
