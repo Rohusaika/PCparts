@@ -1,20 +1,29 @@
-
 name: Update PC parts prices
 
 on:
   workflow_dispatch:
     inputs:
-      resolve_missing_urls:
-        description: "空欄の価格.com URLを自動検索する（初回・SKU追加時のみON）"
+      audit_existing_urls:
+        description: "既存URLが正しい製品ページか再検査する（今回の修正後はON推奨）"
         required: true
         type: boolean
-        default: false
+        default: true
+      resolve_missing_urls:
+        description: "空欄のCPU用価格.com URLを厳密検索する"
+        required: true
+        type: boolean
+        default: true
       resolve_limit:
-        description: "今回検索するURL件数（全件なら999）"
+        description: "今回検索するCPU URL件数（全件なら999）"
         required: true
         default: "999"
+      reset_bad_history:
+        description: "旧版の誤価格履歴を削除する（v1.4初回だけON）"
+        required: true
+        type: boolean
+        default: true
   schedule:
-    # Every day at 09:10 JST (00:10 UTC). Scheduled runs do not search missing URLs.
+    # Every day at 09:10 JST (00:10 UTC). Scheduled runs only refresh verified URLs.
     - cron: "10 0 * * *"
 
 permissions:
@@ -29,7 +38,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -52,7 +61,18 @@ jobs:
         working-directory: Tools
         run: python test_parser.py
 
-      - name: Resolve missing Kakaku URLs
+      - name: Audit existing Kakaku URLs
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.audit_existing_urls }}
+        working-directory: Tools
+        run: |
+          python resolve_kakaku_urls.py \
+            --catalog catalog.csv \
+            --report url_audit_report.json \
+            --audit-existing \
+            --limit 0 \
+            --sleep 2.0
+
+      - name: Resolve missing CPU Kakaku URLs
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.resolve_missing_urls }}
         working-directory: Tools
         run: |
@@ -61,6 +81,10 @@ jobs:
             --report url_resolution_report.json \
             --limit "${{ inputs.resolve_limit }}" \
             --sleep 2.0
+
+      - name: Reset old invalid history
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.reset_bad_history }}
+        run: rm -f Tools/price_history.json
 
       - name: Update prices JSON
         working-directory: Tools
@@ -72,20 +96,20 @@ jobs:
             --history price_history.json \
             --shops approved_shops.txt \
             --output ../docs/prices.json \
+            --report last_update_report.json \
             --sleep 2.5
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/prices.json Tools/price_history.json Tools/catalog.csv
-          if [ -f Tools/url_resolution_report.json ]; then
-            git add Tools/url_resolution_report.json
-          fi
+          git add docs/prices.json Tools/price_history.json Tools/catalog.csv Tools/last_update_report.json
+          if [ -f Tools/url_audit_report.json ]; then git add Tools/url_audit_report.json; fi
+          if [ -f Tools/url_resolution_report.json ]; then git add Tools/url_resolution_report.json; fi
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update PC parts prices"
+            git commit -m "Update verified PC parts prices"
             git push
           fi
 
