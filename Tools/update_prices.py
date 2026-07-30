@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Generate docs/prices.json for the VRChat PC-parts price board.
 
-Version 1.4 focuses on correctness rather than maximum coverage:
+Version 1.5 adds safe category aggregation while retaining v1.4 correctness checks:
 - Verifies that every Kakaku item page is the exact requested model.
+- Aggregates GPU-family, desktop-memory, SSD-form-factor, and 3.5-inch HDD listing pages.
 - Reads the page's headline minimum price and real offer rows only.
 - Never treats points, instalments, shipping, or price differences as item prices.
 - Resolves shop names from link/shop cells before scanning descriptive text.
@@ -24,6 +25,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Iterable
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
 
 try:
@@ -101,6 +103,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--timeout", type=float, default=25.0)
     parser.add_argument("--min-daily-ratio", type=float, default=0.55)
     parser.add_argument("--max-daily-ratio", type=float, default=1.80)
+    parser.add_argument("--aggregate-pages", type=int, default=2, help="Listing pages checked for aggregate sources.")
     return parser.parse_args()
 
 
@@ -144,7 +147,7 @@ def validate_item(item: CatalogItem) -> None:
             raise ValueError(f"PRO CPU is excluded: {name}")
     elif item.category == "GPU":
         geforce = re.fullmatch(r"NVIDIA GeForce RTX (?:30|40|50)\d{2}(?: Ti| SUPER| Ti SUPER)?", name)
-        radeon = re.fullmatch(r"AMD Radeon RX [67]\d{3}(?: XT| XTX| GRE)?", name)
+        radeon = re.fullmatch(r"AMD Radeon RX [679]\d{3}(?: XT| XTX| GRE)?", name)
         if not (geforce or radeon):
             raise ValueError(f"GPU name violates the requested generation filter: {name}")
     elif item.category in {"DDR4", "DDR5"}:
@@ -167,7 +170,7 @@ def model_signature(name: str) -> str | None:
         (r"Intel Core ([3579]) (2\d{2}(?:KF|K|F)?)$", "CORE{}{}"),
         (r"AMD Ryzen ([3579]) ([5-9]\d{3}(?:X3D2|X3D|3D2|3D|X|G)?)$", "RYZEN{}{}"),
         (r"NVIDIA GeForce RTX ((?:30|40|50)\d{2})(?: (Ti SUPER|Ti|SUPER))?$", "RTX{}{}"),
-        (r"AMD Radeon RX ([67]\d{3})(?: (XTX|XT|GRE))?$", "RX{}{}"),
+        (r"AMD Radeon RX ([679]\d{3})(?: (XTX|XT|GRE))?$", "RX{}{}"),
     ]
     for pattern, template in patterns:
         match = re.fullmatch(pattern, text, re.I)
@@ -187,7 +190,7 @@ def signatures_in_text(text: str) -> set[str]:
         (r"(?:INTEL)?CORE([3579])(2\d{2}(?:KF|K|F)?)", "CORE{}{}"),
         (r"RYZEN([3579])([5-9]\d{3}(?:X3D2|X3D|3D2|3D|X|G)?)", "RYZEN{}{}"),
         (r"RTX((?:30|40|50)\d{2})(TISUPER|TI|SUPER)?", "RTX{}{}"),
-        (r"RX([67]\d{3})(XTX|XT|GRE)?", "RX{}{}"),
+        (r"RX([679]\d{3})(XTX|XT|GRE)?", "RX{}{}"),
     ]
     for pattern, template in regexes:
         for match in re.finditer(pattern, compact_text, re.I):
@@ -378,7 +381,181 @@ def parse_kakaku_page(html: str, approved: set[str], item: CatalogItem) -> Price
     return PriceResult(value, shop, method="fetch")
 
 
-def fetch_price(session: "requests.Session", item: CatalogItem, approved: set[str], timeout: float) -> PriceResult:
+
+LISTING_PRICE_RE = re.compile(r"(?:¥|￥)\s*([0-9]{1,3}(?:,[0-9]{3})+|[0-9]{3,9})")
+ITEM_LINK_RE = re.compile(r"/item/K[0-9]+/?", re.I)
+
+
+def _url_for_page(url: str, page: int) -> str:
+    if page <= 1:
+        return url
+    parts = urlsplit(url)
+    query = dict(parse_qsl(parts.query, keep_blank_values=True))
+    query["pdf_pg"] = str(page)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+
+def _normalized_capacity_gb(value: float, unit: str) -> int:
+    return int(round(value * 1000)) if unit.upper() == "TB" else int(round(value))
+
+
+def _target_capacity_gb(item: CatalogItem) -> int | None:
+    match = re.search(r"(256|512)GB$", item.name)
+    if match:
+        return int(match.group(1))
+    match = re.search(r"(1|2|4|8)TB$", item.name)
+    if match:
+        return int(match.group(1)) * 1000
+    if item.category in {"DDR4", "DDR5"}:
+        match = re.search(r"(8|16|32|64|128)GB$", item.name)
+        return int(match.group(1)) if match else None
+    return None
+
+
+def _capacity_matches_text(text: str, target_gb: int) -> bool:
+    # Consumer storage commonly labels nominal equivalents as 500/512GB or 1000/1024GB.
+    aliases = {
+        256: {240, 250, 256},
+        512: {480, 500, 512},
+        1000: {960, 1000, 1024},
+        2000: {1920, 2000, 2048},
+        4000: {3840, 4000, 4096},
+        8000: {7680, 8000, 8192},
+    }.get(target_gb, {target_gb})
+    for number, unit in re.findall(r"(?<![A-Za-z0-9])([0-9]+(?:\.[0-9]+)?)\s*(TB|GB)(?![A-Za-z])", text, re.I):
+        if _normalized_capacity_gb(float(number), unit) in aliases:
+            return True
+    return False
+
+
+def _memory_total_capacity(title: str, block_text: str) -> int | None:
+    text = normalize(title)
+    match = re.search(r"([0-9]+)GB\s*(?:[x×]\s*)?([0-9]+)枚組", text, re.I)
+    if match:
+        return int(match.group(1)) * int(match.group(2))
+    # Kakaku list rows expose per-module capacity followed by module count.
+    match = re.search(r"([0-9]+)\s*GB.{0,180}?([1-8])\s*枚", normalize(block_text), re.I)
+    if match:
+        return int(match.group(1)) * int(match.group(2))
+    # A title without a kit count is treated as one module.
+    values = re.findall(r"(?<![A-Za-z0-9])([0-9]+)GB(?![A-Za-z])", text, re.I)
+    return int(values[-1]) if values else None
+
+
+def _listing_blocks(soup: "BeautifulSoup", approved: set[str]) -> Iterable[tuple[str, "Tag", str]]:
+    seen_urls: set[str] = set()
+    for anchor in soup.find_all("a", href=True):
+        href = anchor.get("href", "")
+        match = ITEM_LINK_RE.search(href)
+        if not match:
+            continue
+        canonical = "https://kakaku.com" + match.group(0)
+        if canonical in seen_urls:
+            continue
+        title = normalize(anchor.get_text(" ", strip=True))
+        if len(title) < 3:
+            continue
+        node = anchor
+        selected = None
+        for _ in range(9):
+            node = node.parent
+            if node is None or not hasattr(node, "get_text"):
+                break
+            if getattr(node, "name", "") not in {"tr", "li", "article", "div", "section"}:
+                continue
+            text = normalize(node.get_text(" ", strip=True))
+            if not (20 <= len(text) <= 4200) or not LISTING_PRICE_RE.search(text):
+                continue
+            links = {ITEM_LINK_RE.search(a.get("href", "")).group(0) for a in node.find_all("a", href=True) if ITEM_LINK_RE.search(a.get("href", ""))}
+            if len(links) != 1:
+                continue
+            if not detect_shops_in_node(node, approved):
+                continue
+            selected = node
+            break
+        if selected is not None:
+            seen_urls.add(canonical)
+            yield title, selected, canonical
+
+
+def _aggregate_block_matches(item: CatalogItem, title: str, text: str) -> bool:
+    if item.category == "GPU":
+        expected = model_signature(item.name)
+        return bool(expected and expected in signatures_in_text(f"{title} {text}"))
+
+    target = _target_capacity_gb(item)
+    if target is None:
+        return False
+
+    if item.category in {"DDR4", "DDR5"}:
+        wanted = item.category
+        upper = f"{title} {text}".upper()
+        if wanted not in upper or "S.O.DIMM" in upper or "SO-DIMM" in upper or "SODIMM" in upper:
+            return False
+        if not re.search(r"(?<!S\.O\.)\bDIMM\b", upper):
+            return False
+        return _memory_total_capacity(title, text) == target
+
+    if item.category == "SSD":
+        upper = f"{title} {text}".upper()
+        if "外付け" in text or "EXTERNAL" in upper:
+            return False
+        if item.name.startswith("M.2"):
+            if not ("M.2" in upper or "TYPE22" in upper):
+                return False
+        else:
+            if not ("2.5" in upper and ("SATA" in upper or "SERIAL ATA" in upper)):
+                return False
+            if "M.2" in upper:
+                return False
+        return _capacity_matches_text(f"{title} {text}", target)
+
+    if item.category == "HDD":
+        upper = f"{title} {text}".upper()
+        if "外付け" in text or "EXTERNAL" in upper or "2.5インチ" in text:
+            return False
+        return _capacity_matches_text(f"{title} {text}", target)
+    return False
+
+
+def parse_kakaku_listing(html: str, approved: set[str], item: CatalogItem) -> list[tuple[int, str, str]]:
+    if BeautifulSoup is None:
+        raise RuntimeError("Install requirements.txt first.")
+    soup = BeautifulSoup(html, "html.parser")
+    candidates: set[tuple[int, str, str]] = set()
+    for title, block, product_url in _listing_blocks(soup, approved):
+        text = normalize(block.get_text(" ", strip=True))
+        if not _aggregate_block_matches(item, title, text):
+            continue
+        shops = detect_shops_in_node(block, approved)
+        if len(shops) != 1:
+            continue
+        price_match = LISTING_PRICE_RE.search(text)
+        if not price_match:
+            continue
+        value = parse_int_price(price_match.group(1))
+        if valid_price(value, item):
+            candidates.add((value, shops[0], product_url))
+    return sorted(candidates, key=lambda row: row[0])
+
+
+def fetch_aggregate_price(session: "requests.Session", item: CatalogItem, approved: set[str], timeout: float, pages: int) -> PriceResult:
+    if not item.kakaku_url:
+        return PriceResult(0, "", error="aggregate URL is blank", method="aggregate")
+    candidates: list[tuple[int, str, str]] = []
+    for page in range(1, max(1, pages) + 1):
+        response = session.get(_url_for_page(item.kakaku_url, page), timeout=timeout)
+        response.raise_for_status()
+        response.encoding = response.apparent_encoding or response.encoding
+        candidates.extend(parse_kakaku_listing(response.text, approved, item))
+    if not candidates:
+        return PriceResult(0, "", error="No exact aggregate listing from an approved shop", method="aggregate")
+    value, shop, _ = min(candidates, key=lambda row: row[0])
+    return PriceResult(value, shop, method="aggregate")
+
+def fetch_price(session: "requests.Session", item: CatalogItem, approved: set[str], timeout: float, aggregate_pages: int = 2) -> PriceResult:
+    if item.source_mode == "aggregate":
+        return fetch_aggregate_price(session, item, approved, timeout, aggregate_pages)
     if not item.kakaku_url:
         return PriceResult(0, "", error="kakakuUrl is blank", method="fetch")
     response = session.get(item.kakaku_url, timeout=timeout)
@@ -443,7 +620,7 @@ def apply_anomaly_guard(result: PriceResult, history: dict, item: CatalogItem, m
             0,
             "",
             error=f"Suspicious change rejected: previous={old}, fetched={result.price}, ratio={ratio:.3f}",
-            method="fetch",
+            method=result.method or "fetch",
         )
     return result
 
@@ -504,16 +681,16 @@ def build_output(items: Iterable[CatalogItem], prices: dict[str, PriceResult], h
         })
 
     payload = {
-        "schemaVersion": 4,
+        "schemaVersion": 5,
         "updatedAt": datetime.now(JST).strftime("%Y-%m-%d %H:%M JST"),
         "priceDate": target_date.isoformat(),
-        "source": "価格.com掲載価格 / 指定店舗内の販売価格",
+        "source": "価格.com掲載価格 / 指定店舗内の最安表示（容量・GPU別集計を含む）",
         "summary": {"total": len(output_items), "priced": priced, "stale": stale, "unavailable": unavailable},
         "items": output_items,
         "_todayHistory": today_map,
     }
     report = {
-        "schemaVersion": 4,
+        "schemaVersion": 5,
         "updatedAt": payload["updatedAt"],
         "summary": payload["summary"],
         "items": diagnostics,
@@ -556,7 +733,7 @@ def main() -> int:
             assert session is not None
             did_network_request = bool(item.kakaku_url)
             try:
-                result = fetch_price(session, item, approved, args.timeout)
+                result = fetch_price(session, item, approved, args.timeout, args.aggregate_pages)
             except Exception as exc:
                 result = PriceResult(0, "", error=str(exc), method="fetch")
                 print(f"WARN {item.name}: {exc}", file=sys.stderr)

@@ -54,3 +54,43 @@ result = parse_kakaku_page(no_approved, APPROVED, CPU)
 assert result.price == 0, result
 
 print("Parser tests passed")
+
+# Aggregate listing: exact GPU family, approved seller, and first product price.
+from update_prices import parse_kakaku_listing
+GPU = CatalogItem(True, "GPU", "test", "NVIDIA GeForce RTX 5080", 1, "", "aggregate")
+gpu_list = """
+<html><body><div class="item-row">
+<a href="/item/K0002000001/">MSI GeForce RTX 5080 16G VENTUS 3X OC [PCIExp 16GB]</a>
+<span>¥229,800</span><a class="shop">Amazon.co.jp</a>
+<div>GeForce RTX 5080 GDDR7 16GB</div></div>
+<div class="item-row"><a href="/item/K0002000002/">MSI GeForce RTX 5070 12G</a>
+<span>¥99,800</span><a class="shop">Amazon.co.jp</a><div>GeForce RTX 5070</div></div>
+</body></html>
+"""
+candidates = parse_kakaku_listing(gpu_list, APPROVED, GPU)
+assert candidates and candidates[0][0] == 229800, candidates
+
+# Desktop memory uses total kit capacity and excludes S.O.DIMM.
+MEM = CatalogItem(True, "DDR4", "test", "DDR4 32GB", 1, "", "aggregate")
+mem_list = """
+<html><body><div class="item-row">
+<a href="/item/K0003000001/">crucial ABC [DDR4 PC4-25600 16GB 2枚組]</a>
+<span>¥6,980</span><a>Amazon.co.jp</a><div>16GB 2枚 DDR4 SDRAM DIMM ¥218</div></div>
+<div class="item-row"><a href="/item/K0003000002/">crucial NOTE [SODIMM DDR4 32GB]</a>
+<span>¥5,980</span><a>Amazon.co.jp</a><div>32GB 1枚 DDR4 SDRAM S.O.DIMM</div></div>
+</body></html>
+"""
+candidates = parse_kakaku_listing(mem_list, APPROVED, MEM)
+assert candidates and candidates[0][0] == 6980, candidates
+
+M2 = CatalogItem(True, "SSD", "test", "M.2 SSD 1TB", 1, "", "aggregate")
+ssd_list = """
+<html><body><div class="item-row"><a href="/item/K0004000001/">Example NVMe 1TB</a>
+<span>¥9,980</span><a>TSUKUMO</a><div>容量1000GB M.2 (Type2280) PCI-Express Gen4</div></div>
+<div class="item-row"><a href="/item/K0004000002/">Example SATA 1TB</a>
+<span>¥7,980</span><a>Amazon.co.jp</a><div>容量1000GB 2.5インチ Serial ATA</div></div></body></html>
+"""
+candidates = parse_kakaku_listing(ssd_list, APPROVED, M2)
+assert candidates and candidates[0][0] == 9980, candidates
+
+print("Aggregate parser tests passed")

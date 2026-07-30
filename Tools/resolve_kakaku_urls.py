@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Audit and resolve Kakaku.com item URLs conservatively.
 
-Version 1.4 changes:
+Version 1.5 changes:
 - Existing URLs can be audited and mismatched pages are cleared.
 - CPU candidates require an exact model signature on the item page.
 - Generic GPU families are not auto-resolved by default because one Kakaku item page is
@@ -23,6 +23,10 @@ import requests
 from bs4 import BeautifulSoup
 
 from update_prices import CatalogItem, model_signature, page_identity, signatures_in_text, normalize
+
+KNOWN_EXACT_URLS = {
+    "AMD Ryzen 7 5700X": "https://kakaku.com/item/K0001429753/",
+}
 
 ITEM_RE = re.compile(r"https?://kakaku\.com/item/(K\d+)/?|/item/(K\d+)/?", re.I)
 
@@ -99,6 +103,8 @@ def candidate_urls(search_html: str, item: CatalogItem) -> list[str]:
 
 
 def resolve_one(session: requests.Session, item: CatalogItem, timeout: float) -> tuple[str | None, str]:
+    if item.name in KNOWN_EXACT_URLS:
+        return KNOWN_EXACT_URLS[item.name], "resolved from verified seed"
     if item.category == "GPU":
         return None, "GPU family auto-resolution is disabled; use an aggregate/manual source"
     query = item.name + " BOX"
