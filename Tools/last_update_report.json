@@ -1,18 +1,18 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-30 00:49 JST",
+  "updatedAt": "2026-07-30 12:27 JST",
   "summary": {
     "total": 176,
-    "priced": 91,
-    "stale": 0,
-    "unavailable": 85
+    "priced": 94,
+    "stale": 2,
+    "unavailable": 82
   },
   "items": [
     {
       "name": "Intel Core Ultra 9 285K",
       "status": "ok",
-      "price": 98326,
-      "shop": "Amazon",
+      "price": 99980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001658283/",
       "method": "fetch",
       "message": ""
@@ -119,7 +119,7 @@
     {
       "name": "Intel Core i9-14900K",
       "status": "ok",
-      "price": 138226,
+      "price": 138224,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001613789/",
       "method": "fetch",
@@ -183,7 +183,7 @@
       "name": "Intel Core i7-14700F",
       "status": "ok",
       "price": 59980,
-      "shop": "パソコン工房",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001596166/",
       "method": "fetch",
       "message": ""
@@ -226,12 +226,12 @@
     },
     {
       "name": "Intel Core i5-14400",
-      "status": "unavailable",
-      "price": 0,
-      "shop": "",
+      "status": "ok",
+      "price": 35980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001596168/",
       "method": "fetch",
-      "message": "Headline minimum price was not found"
+      "message": ""
     },
     {
       "name": "Intel Core i5-14400F",
@@ -416,7 +416,7 @@
     {
       "name": "Intel Core i9-12900KF",
       "status": "ok",
-      "price": 55980,
+      "price": 57980,
       "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001395717/",
       "method": "fetch",
@@ -523,12 +523,12 @@
     },
     {
       "name": "Intel Core i5-12400F",
-      "status": "ok",
+      "status": "stale",
       "price": 25980,
-      "shop": "ドスパラ",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/item/K0001413995/",
-      "method": "fetch",
-      "message": ""
+      "method": "history",
+      "message": "Headline minimum price was not found"
     },
     {
       "name": "Intel Core i3-12300",
@@ -604,12 +604,12 @@
     },
     {
       "name": "AMD Ryzen 7 9800X3D",
-      "status": "unavailable",
-      "price": 0,
-      "shop": "",
+      "status": "ok",
+      "price": 65980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001661801/",
       "method": "fetch",
-      "message": "Headline minimum price was not found"
+      "message": ""
     },
     {
       "name": "AMD Ryzen 7 9700X",
@@ -677,7 +677,7 @@
     {
       "name": "AMD Ryzen 5 8500G",
       "status": "ok",
-      "price": 20678,
+      "price": 20680,
       "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001603517/",
       "method": "fetch",
@@ -721,12 +721,12 @@
     },
     {
       "name": "AMD Ryzen 9 7900X",
-      "status": "unavailable",
-      "price": 0,
-      "shop": "",
+      "status": "ok",
+      "price": 49000,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001467704/",
       "method": "fetch",
-      "message": "Headline minimum price was not found"
+      "message": ""
     },
     {
       "name": "AMD Ryzen 9 7900",
@@ -759,7 +759,7 @@
       "name": "AMD Ryzen 7 7700",
       "status": "ok",
       "price": 39800,
-      "shop": "ソフマップ",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001711744/",
       "method": "fetch",
       "message": ""
@@ -831,7 +831,7 @@
       "name": "AMD Ryzen 7 5800X3D",
       "status": "ok",
       "price": 67800,
-      "shop": "パソコン工房",
+      "shop": "ノジマオンライン",
       "sourceUrl": "https://kakaku.com/item/K0001791618/",
       "method": "fetch",
       "message": ""
@@ -840,7 +840,7 @@
       "name": "AMD Ryzen 7 5800X",
       "status": "ok",
       "price": 42480,
-      "shop": "ソフマップ",
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001780957/",
       "method": "fetch",
       "message": ""
@@ -861,7 +861,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/item/K0001603511/",
       "method": "fetch",
-      "message": "Headline minimum price was not found"
+      "message": "No approved-shop offer row matched the headline price table"
     },
     {
       "name": "AMD Ryzen 7 5700X",
@@ -912,7 +912,7 @@
       "name": "AMD Ryzen 5 5600G",
       "status": "ok",
       "price": 19800,
-      "shop": "楽天市場",
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/item/K0001603513/",
       "method": "fetch",
       "message": ""
@@ -939,19 +939,19 @@
       "name": "AMD Ryzen 3 5300G",
       "status": "ok",
       "price": 17980,
-      "shop": "パソコン工房",
+      "shop": "PCSHOPアーク",
       "sourceUrl": "https://kakaku.com/item/K0001661915/",
       "method": "fetch",
       "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 5090",
-      "status": "ok",
+      "status": "stale",
       "price": 790800,
-      "shop": "楽天市場",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/item/K0001792574/",
-      "method": "fetch",
-      "message": ""
+      "method": "history",
+      "message": "Headline minimum price was not found"
     },
     {
       "name": "NVIDIA GeForce RTX 5080",
@@ -984,7 +984,7 @@
       "name": "NVIDIA GeForce RTX 5060 Ti",
       "status": "ok",
       "price": 95800,
-      "shop": "TSUKUMO",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001794695/",
       "method": "fetch",
       "message": ""
@@ -1280,7 +1280,7 @@
     {
       "name": "AMD Radeon RX 6700 XT",
       "status": "ok",
-      "price": 53002,
+      "price": 49765,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001417957/",
       "method": "fetch",

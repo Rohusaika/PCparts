@@ -1,7 +1,7 @@
 {
   "dates": {
     "2026-07-30": {
-      "Intel Core Ultra 9 285K": 98326,
+      "Intel Core Ultra 9 285K": 99980,
       "Intel Core Ultra 9 285": 104500,
       "Intel Core Ultra 7 265K": 58926,
       "Intel Core Ultra 7 265KF": 45342,
@@ -12,7 +12,7 @@
       "Intel Core Ultra 5 235": 45242,
       "Intel Core Ultra 5 225": 33200,
       "Intel Core Ultra 5 225F": 24480,
-      "Intel Core i9-14900K": 138226,
+      "Intel Core i9-14900K": 138224,
       "Intel Core i9-14900KF": 78980,
       "Intel Core i9-14900F": 103140,
       "Intel Core i7-14700K": 67980,
@@ -34,7 +34,7 @@
       "Intel Core i5-13400F": 41102,
       "Intel Core i3-13100F": 19980,
       "Intel Core i9-12900K": 57980,
-      "Intel Core i9-12900KF": 55980,
+      "Intel Core i9-12900KF": 57980,
       "Intel Core i9-12900": 67899,
       "Intel Core i9-12900F": 64140,
       "Intel Core i7-12700K": 54980,
@@ -57,7 +57,7 @@
       "AMD Ryzen 5 9600": 32880,
       "AMD Ryzen 7 8700G": 38935,
       "AMD Ryzen 5 8600G": 27980,
-      "AMD Ryzen 5 8500G": 20678,
+      "AMD Ryzen 5 8500G": 20680,
       "AMD Ryzen 9 7950X3D": 106000,
       "AMD Ryzen 9 7950X": 102344,
       "AMD Ryzen 9 7900": 56980,
@@ -88,10 +88,13 @@
       "AMD Radeon RX 7600": 35384,
       "AMD Radeon RX 6900 XT": 218620,
       "AMD Radeon RX 6800 XT": 206390,
-      "AMD Radeon RX 6700 XT": 53002,
+      "AMD Radeon RX 6700 XT": 49765,
       "AMD Radeon RX 6600 XT": 63948,
       "AMD Radeon RX 6600": 37800,
-      "AMD Radeon RX 6400": 89954
+      "AMD Radeon RX 6400": 89954,
+      "Intel Core i5-14400": 35980,
+      "AMD Ryzen 7 9800X3D": 65980,
+      "AMD Ryzen 9 7900X": 49000
     }
   }
 }
