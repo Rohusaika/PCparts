@@ -1,7 +1,7 @@
 {
-  "attempted": 140,
-  "verified": 87,
-  "cleared": 53,
+  "attempted": 93,
+  "verified": 93,
+  "cleared": 0,
   "resolved": 0,
   "unresolved": 0,
   "items": [
@@ -25,9 +25,9 @@
       "line": 4,
       "operation": "audit",
       "name": "Intel Core Ultra 7 265K",
-      "url": "https://kakaku.com/item/K0001658285/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREULTRA7265K, page has ['COREULTRA7265KF']"
+      "url": "https://kakaku.com/item/K0001658284/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 5,
@@ -41,9 +41,9 @@
       "line": 6,
       "operation": "audit",
       "name": "Intel Core Ultra 7 265",
-      "url": "https://kakaku.com/item/K0001678741/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREULTRA7265, page has ['COREULTRA7265F']"
+      "url": "https://kakaku.com/item/K0001677984/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 7,
@@ -57,9 +57,9 @@
       "line": 8,
       "operation": "audit",
       "name": "Intel Core Ultra 5 245K",
-      "url": "https://kakaku.com/item/K0001658287/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREULTRA5245K, page has ['COREULTRA5245KF']"
+      "url": "https://kakaku.com/item/K0001658286/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 9,
@@ -68,14 +68,6 @@
       "url": "https://kakaku.com/item/K0001658287/",
       "kept": true,
       "message": "verified"
-    },
-    {
-      "line": 10,
-      "operation": "audit",
-      "name": "Intel Core Ultra 5 245",
-      "url": "https://kakaku.com/item/K0001658287/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREULTRA5245, page has ['COREULTRA5245KF']"
     },
     {
       "line": 11,
@@ -89,9 +81,9 @@
       "line": 12,
       "operation": "audit",
       "name": "Intel Core Ultra 5 225",
-      "url": "https://kakaku.com/item/K0001673196/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREULTRA5225, page has ['COREULTRA5225F']"
+      "url": "https://kakaku.com/item/K0001673195/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 13,
@@ -137,9 +129,9 @@
       "line": 18,
       "operation": "audit",
       "name": "Intel Core i7-14700K",
-      "url": "https://kakaku.com/item/K0001577324/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI714700K, page has ['COREI714700KF']"
+      "url": "https://kakaku.com/item/K0001577323/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 19,
@@ -153,9 +145,9 @@
       "line": 20,
       "operation": "audit",
       "name": "Intel Core i7-14700",
-      "url": "https://kakaku.com/item/K0001596166/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI714700, page has ['COREI714700F']"
+      "url": "https://kakaku.com/item/K0001596165/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 21,
@@ -169,9 +161,9 @@
       "line": 22,
       "operation": "audit",
       "name": "Intel Core i5-14600K",
-      "url": "https://kakaku.com/item/K0001577326/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI514600K, page has ['COREI514600KF']"
+      "url": "https://kakaku.com/item/K0001577325/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 23,
@@ -180,14 +172,6 @@
       "url": "https://kakaku.com/item/K0001577326/",
       "kept": true,
       "message": "verified"
-    },
-    {
-      "line": 24,
-      "operation": "audit",
-      "name": "Intel Core i5-14600",
-      "url": "https://kakaku.com/item/K0001577326/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI514600, page has ['COREI514600KF']"
     },
     {
       "line": 25,
@@ -201,9 +185,9 @@
       "line": 26,
       "operation": "audit",
       "name": "Intel Core i5-14400",
-      "url": "https://kakaku.com/item/K0001596169/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI514400, page has ['COREI514400F']"
+      "url": "https://kakaku.com/item/K0001596168/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 27,
@@ -217,9 +201,9 @@
       "line": 28,
       "operation": "audit",
       "name": "Intel Core i3-14100",
-      "url": "https://kakaku.com/item/K0001596171/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI314100, page has ['COREI314100F']"
+      "url": "https://kakaku.com/item/K0001596170/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 29,
@@ -249,9 +233,9 @@
       "line": 32,
       "operation": "audit",
       "name": "Intel Core i9-13900",
-      "url": "https://kakaku.com/item/K0001508680/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI913900, page has ['COREI913900K']"
+      "url": "https://kakaku.com/item/K0001506426/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 33,
@@ -265,9 +249,9 @@
       "line": 34,
       "operation": "audit",
       "name": "Intel Core i7-13700K",
-      "url": "https://kakaku.com/item/K0001476108/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI713700K, page has ['COREI713700KF']"
+      "url": "https://kakaku.com/item/K0001476107/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 35,
@@ -297,9 +281,9 @@
       "line": 38,
       "operation": "audit",
       "name": "Intel Core i5-13600K",
-      "url": "https://kakaku.com/item/K0001476110/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI513600K, page has ['COREI513600KF']"
+      "url": "https://kakaku.com/item/K0001476109/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 39,
@@ -308,14 +292,6 @@
       "url": "https://kakaku.com/item/K0001476110/",
       "kept": true,
       "message": "verified"
-    },
-    {
-      "line": 40,
-      "operation": "audit",
-      "name": "Intel Core i5-13600",
-      "url": "https://kakaku.com/item/K0001476110/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI513600, page has ['COREI513600KF']"
     },
     {
       "line": 41,
@@ -329,9 +305,9 @@
       "line": 42,
       "operation": "audit",
       "name": "Intel Core i5-13400",
-      "url": "https://kakaku.com/item/K0001506432/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI513400, page has ['COREI513400F']"
+      "url": "https://kakaku.com/item/K0001506431/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 43,
@@ -345,9 +321,9 @@
       "line": 44,
       "operation": "audit",
       "name": "Intel Core i3-13100",
-      "url": "https://kakaku.com/item/K0001506434/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI313100, page has ['COREI313100F']"
+      "url": "https://kakaku.com/item/K0001506433/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 45,
@@ -377,9 +353,9 @@
       "line": 48,
       "operation": "audit",
       "name": "Intel Core i9-12900",
-      "url": "https://kakaku.com/item/K0001431949/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI912900, page has ['COREI912900K']"
+      "url": "https://kakaku.com/item/K0001413988/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 49,
@@ -393,9 +369,9 @@
       "line": 50,
       "operation": "audit",
       "name": "Intel Core i7-12700K",
-      "url": "https://kakaku.com/item/K0001395719/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI712700K, page has ['COREI712700KF']"
+      "url": "https://kakaku.com/item/K0001395718/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 51,
@@ -409,9 +385,9 @@
       "line": 52,
       "operation": "audit",
       "name": "Intel Core i7-12700",
-      "url": "https://kakaku.com/item/K0001714216/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI712700, page has []"
+      "url": "https://kakaku.com/item/K0001413990/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 53,
@@ -425,9 +401,9 @@
       "line": 54,
       "operation": "audit",
       "name": "Intel Core i5-12600K",
-      "url": "https://kakaku.com/item/K0001395721/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI512600K, page has ['COREI512600KF']"
+      "url": "https://kakaku.com/item/K0001395720/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 55,
@@ -457,9 +433,9 @@
       "line": 58,
       "operation": "audit",
       "name": "Intel Core i5-12400",
-      "url": "https://kakaku.com/item/K0001413995/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI512400, page has ['COREI512400F']"
+      "url": "https://kakaku.com/item/K0001413994/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 59,
@@ -481,9 +457,9 @@
       "line": 61,
       "operation": "audit",
       "name": "Intel Core i3-12100",
-      "url": "https://kakaku.com/item/K0001413998/",
-      "kept": false,
-      "message": "URL model mismatch: expected COREI312100, page has ['COREI312100F']"
+      "url": "https://kakaku.com/item/K0001413997/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 62,
@@ -505,17 +481,17 @@
       "line": 64,
       "operation": "audit",
       "name": "AMD Ryzen 9 9950X3D",
-      "url": "https://kakaku.com/item/K0001782911/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN99950X3D, page has ['RYZEN99950X3D2']"
+      "url": "https://kakaku.com/item/K0001670215/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 65,
       "operation": "audit",
       "name": "AMD Ryzen 9 9950X",
-      "url": "https://kakaku.com/item/K0001782911/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN99950X, page has ['RYZEN99950X3D2']"
+      "url": "https://kakaku.com/item/K0001630330/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 66,
@@ -529,9 +505,9 @@
       "line": 67,
       "operation": "audit",
       "name": "AMD Ryzen 9 9900X",
-      "url": "https://kakaku.com/item/K0001670216/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN99900X, page has ['RYZEN99900X3D']"
+      "url": "https://kakaku.com/item/K0001630331/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 68,
@@ -548,14 +524,6 @@
       "url": "https://kakaku.com/item/K0001630332/",
       "kept": true,
       "message": "verified"
-    },
-    {
-      "line": 70,
-      "operation": "audit",
-      "name": "AMD Ryzen 7 9700",
-      "url": "https://kakaku.com/item/K0001630332/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN79700, page has ['RYZEN79700X']"
     },
     {
       "line": 72,
@@ -609,9 +577,9 @@
       "line": 79,
       "operation": "audit",
       "name": "AMD Ryzen 9 7950X",
-      "url": "https://kakaku.com/item/K0001507442/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN97950X, page has ['RYZEN97950X3D']"
+      "url": "https://kakaku.com/item/K0001467703/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 80,
@@ -625,9 +593,9 @@
       "line": 81,
       "operation": "audit",
       "name": "AMD Ryzen 9 7900X",
-      "url": "https://kakaku.com/item/K0001507443/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN97900X, page has ['RYZEN97900X3D']"
+      "url": "https://kakaku.com/item/K0001467704/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 82,
@@ -649,17 +617,17 @@
       "line": 84,
       "operation": "audit",
       "name": "AMD Ryzen 7 7700X",
-      "url": "https://kakaku.com/item/K0001794004/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN77700X, page has ['RYZEN77700X3D']"
+      "url": "https://kakaku.com/item/K0001562491/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 85,
       "operation": "audit",
       "name": "AMD Ryzen 7 7700",
-      "url": "https://kakaku.com/item/K0001794004/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN77700, page has ['RYZEN77700X3D']"
+      "url": "https://kakaku.com/item/K0001711744/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 86,
@@ -694,14 +662,6 @@
       "message": "verified"
     },
     {
-      "line": 92,
-      "operation": "audit",
-      "name": "AMD Ryzen 9 5900",
-      "url": "https://kakaku.com/item/K0001630334/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN95900, page has ['RYZEN95900X']"
-    },
-    {
       "line": 93,
       "operation": "audit",
       "name": "AMD Ryzen 7 5800X3D",
@@ -713,17 +673,9 @@
       "line": 94,
       "operation": "audit",
       "name": "AMD Ryzen 7 5800X",
-      "url": "https://kakaku.com/item/K0001791618/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN75800X, page has ['RYZEN75800X3D']"
-    },
-    {
-      "line": 95,
-      "operation": "audit",
-      "name": "AMD Ryzen 7 5800",
-      "url": "https://kakaku.com/item/K0001791618/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN75800, page has ['RYZEN75800X3D']"
+      "url": "https://kakaku.com/item/K0001780957/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 96,
@@ -737,9 +689,9 @@
       "line": 97,
       "operation": "audit",
       "name": "AMD Ryzen 7 5700X",
-      "url": "https://kakaku.com/item/K0001603511/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN75700X, page has ['RYZEN75700X3D']"
+      "url": "https://kakaku.com/item/K0001546309/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 98,
@@ -777,351 +729,23 @@
       "line": 103,
       "operation": "audit",
       "name": "AMD Ryzen 5 5600",
-      "url": "https://kakaku.com/item/K0001661917/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN55600, page has ['RYZEN55600X']"
+      "url": "https://kakaku.com/item/K0001661916/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 104,
       "operation": "audit",
       "name": "AMD Ryzen 5 5500",
-      "url": "https://kakaku.com/item/K0001603514/",
-      "kept": false,
-      "message": "URL model mismatch: expected RYZEN55500, page has ['RYZEN55500G']"
+      "url": "https://kakaku.com/item/K0001429755/",
+      "kept": true,
+      "message": "verified"
     },
     {
       "line": 105,
       "operation": "audit",
       "name": "AMD Ryzen 3 5300G",
       "url": "https://kakaku.com/item/K0001661915/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 106,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5090",
-      "url": "https://kakaku.com/item/K0001792574/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 107,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5080",
-      "url": "https://kakaku.com/item/K0001794263/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX5080, page has []"
-    },
-    {
-      "line": 108,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5070 Ti",
-      "url": "https://kakaku.com/item/K0001794694/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX5070TI, page has ['RTX5070']"
-    },
-    {
-      "line": 109,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5070",
-      "url": "https://kakaku.com/item/K0001717841/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX5070, page has ['RTX5070TI']"
-    },
-    {
-      "line": 110,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5060 Ti",
-      "url": "https://kakaku.com/item/K0001794695/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 111,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5060",
-      "url": "https://kakaku.com/item/K0001785655/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX5060, page has ['RTX5060TI']"
-    },
-    {
-      "line": 112,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 5050",
-      "url": "https://kakaku.com/item/K0001700743/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 113,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4090",
-      "url": "https://kakaku.com/item/K0001654841/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 114,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4080 SUPER",
-      "url": "https://kakaku.com/item/K0001673886/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX4080SUPER, page has ['RTX4080']"
-    },
-    {
-      "line": 115,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4080",
-      "url": "https://kakaku.com/item/K0001603882/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX4080, page has ['RTX4080SUPER']"
-    },
-    {
-      "line": 116,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
-      "url": "https://kakaku.com/item/K0001663227/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 117,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4070 Ti",
-      "url": "https://kakaku.com/item/K0001625064/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX4070TI, page has ['RTX4070TISUPER']"
-    },
-    {
-      "line": 118,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4070 SUPER",
-      "url": "https://kakaku.com/item/K0001634694/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX4070SUPER, page has ['RTX4070TISUPER']"
-    },
-    {
-      "line": 119,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4070",
-      "url": "https://kakaku.com/item/K0001625064/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX4070, page has ['RTX4070TISUPER']"
-    },
-    {
-      "line": 120,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4060 Ti",
-      "url": "https://kakaku.com/item/K0001696404/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX4060TI, page has ['COREI714650', 'RTX4060']"
-    },
-    {
-      "line": 121,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 4060",
-      "url": "https://kakaku.com/item/K0001696404/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 122,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3090 Ti",
-      "url": "https://kakaku.com/item/K0001445733/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 123,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3090",
-      "url": "https://kakaku.com/item/K0001445733/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX3090, page has ['RTX3090TI']"
-    },
-    {
-      "line": 124,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3080 Ti",
-      "url": "https://kakaku.com/item/K0001422990/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX3080TI, page has ['RTX3080']"
-    },
-    {
-      "line": 125,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3080",
-      "url": "https://kakaku.com/item/K0001424968/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 126,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3070 Ti",
-      "url": "https://kakaku.com/item/K0001511650/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 127,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3070",
-      "url": "https://kakaku.com/item/K0001511650/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX3070, page has ['RTX3070TI']"
-    },
-    {
-      "line": 128,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3060 Ti",
-      "url": "https://kakaku.com/item/K0001795496/",
-      "kept": false,
-      "message": "URL model mismatch: expected RTX3060TI, page has ['RTX3060']"
-    },
-    {
-      "line": 129,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3060",
-      "url": "https://kakaku.com/item/K0001795496/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 130,
-      "operation": "audit",
-      "name": "NVIDIA GeForce RTX 3050",
-      "url": "https://kakaku.com/item/K0001766244/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 131,
-      "operation": "audit",
-      "name": "AMD Radeon RX 7900 XTX",
-      "url": "https://kakaku.com/item/K0001640849/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 132,
-      "operation": "audit",
-      "name": "AMD Radeon RX 7900 XT",
-      "url": "https://kakaku.com/item/K0001676050/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 133,
-      "operation": "audit",
-      "name": "AMD Radeon RX 7900 GRE",
-      "url": "https://kakaku.com/item/K0001618616/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 134,
-      "operation": "audit",
-      "name": "AMD Radeon RX 7800 XT",
-      "url": "https://kakaku.com/item/K0001585306/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 137,
-      "operation": "audit",
-      "name": "AMD Radeon RX 7600",
-      "url": "https://kakaku.com/item/K0001693613/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 138,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6950 XT",
-      "url": "https://kakaku.com/item/K0001522755/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 139,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6900 XT",
-      "url": "https://kakaku.com/item/K0001362990/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 140,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6800 XT",
-      "url": "https://kakaku.com/item/K0001417956/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 141,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6800",
-      "url": "https://kakaku.com/item/K0001417956/",
-      "kept": false,
-      "message": "URL model mismatch: expected RX6800, page has ['RX6800XT']"
-    },
-    {
-      "line": 143,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6700 XT",
-      "url": "https://kakaku.com/item/K0001417957/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 144,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6700",
-      "url": "https://kakaku.com/item/K0001417957/",
-      "kept": false,
-      "message": "URL model mismatch: expected RX6700, page has ['RX6700XT']"
-    },
-    {
-      "line": 145,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6650 XT",
-      "url": "https://kakaku.com/item/K0001593967/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 146,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6600 XT",
-      "url": "https://kakaku.com/item/K0001402781/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 147,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6600",
-      "url": "https://kakaku.com/item/K0001633850/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 148,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6500 XT",
-      "url": "https://kakaku.com/item/K0001636513/",
-      "kept": true,
-      "message": "verified"
-    },
-    {
-      "line": 149,
-      "operation": "audit",
-      "name": "AMD Radeon RX 6400",
-      "url": "https://kakaku.com/item/K0001436887/",
       "kept": true,
       "message": "verified"
     }
