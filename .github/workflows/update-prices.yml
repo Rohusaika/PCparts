@@ -9,7 +9,7 @@ on:
         type: boolean
         default: true
       resolve_missing_urls:
-        description: "空欄のCPU用価格.com URLを厳密検索する"
+        description: "空欄のCPU用価格.com URLを厳密検索する（GPU・メモリ・SSD・HDDは一覧集計）"
         required: true
         type: boolean
         default: true
@@ -23,7 +23,7 @@ on:
         type: boolean
         default: true
   schedule:
-    # Every day at 09:10 JST (00:10 UTC). Scheduled runs only refresh verified URLs.
+    # Every day at 09:10 JST (00:10 UTC). Scheduled runs also resolve up to 12 missing CPU URLs.
     - cron: "10 0 * * *"
 
 permissions:
@@ -61,6 +61,10 @@ jobs:
         working-directory: Tools
         run: python test_parser.py
 
+      - name: Upgrade catalog to v1.5
+        working-directory: Tools
+        run: python upgrade_catalog_v1_5.py --catalog catalog.csv
+
       - name: Audit existing Kakaku URLs
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.audit_existing_urls }}
         working-directory: Tools
@@ -73,13 +77,15 @@ jobs:
             --sleep 2.0
 
       - name: Resolve missing CPU Kakaku URLs
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.resolve_missing_urls }}
+        if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.resolve_missing_urls) }}
         working-directory: Tools
+        env:
+          RESOLVE_LIMIT: ${{ github.event_name == 'schedule' && '12' || inputs.resolve_limit }}
         run: |
           python resolve_kakaku_urls.py \
             --catalog catalog.csv \
             --report url_resolution_report.json \
-            --limit "${{ inputs.resolve_limit }}" \
+            --limit "$RESOLVE_LIMIT" \
             --sleep 2.0
 
       - name: Reset old invalid history
@@ -97,7 +103,8 @@ jobs:
             --shops approved_shops.txt \
             --output ../docs/prices.json \
             --report last_update_report.json \
-            --sleep 2.5
+            --sleep 1.2 \
+            --aggregate-pages 2
 
       - name: Commit changes
         run: |
