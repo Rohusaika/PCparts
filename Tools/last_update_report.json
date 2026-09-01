@@ -1,11 +1,11 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-08-31 14:31 JST",
+  "updatedAt": "2026-09-01 14:06 JST",
   "summary": {
     "total": 180,
-    "priced": 132,
+    "priced": 133,
     "stale": 11,
-    "unavailable": 48
+    "unavailable": 47
   },
   "items": [
     {
@@ -20,7 +20,7 @@
     {
       "name": "Intel Core Ultra 9 285",
       "status": "ok",
-      "price": 89800,
+      "price": 107800,
       "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001679401/",
       "method": "fetch",
@@ -102,7 +102,7 @@
       "name": "Intel Core Ultra 5 225",
       "status": "ok",
       "price": 31970,
-      "shop": "ソフマップ",
+      "shop": "TSUKUMO",
       "sourceUrl": "https://kakaku.com/item/K0001673195/",
       "method": "fetch",
       "message": ""
@@ -407,7 +407,7 @@
     {
       "name": "Intel Core i9-12900K",
       "status": "ok",
-      "price": 89177,
+      "price": 89141,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001431949/",
       "method": "fetch",
@@ -461,8 +461,8 @@
     {
       "name": "Intel Core i7-12700",
       "status": "ok",
-      "price": 46750,
-      "shop": "楽天市場",
+      "price": 55980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001413990/",
       "method": "fetch",
       "message": ""
@@ -561,7 +561,7 @@
       "name": "AMD Ryzen 9 9950X3D2",
       "status": "ok",
       "price": 169980,
-      "shop": "PC-IDEA",
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/item/K0001782911/",
       "method": "fetch",
       "message": ""
@@ -570,7 +570,7 @@
       "name": "AMD Ryzen 9 9950X3D",
       "status": "ok",
       "price": 104980,
-      "shop": "Joshin",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001670215/",
       "method": "fetch",
       "message": ""
@@ -588,7 +588,7 @@
       "name": "AMD Ryzen 9 9900X3D",
       "status": "ok",
       "price": 85980,
-      "shop": "楽天市場",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001670216/",
       "method": "fetch",
       "message": ""
@@ -597,7 +597,7 @@
       "name": "AMD Ryzen 9 9900X",
       "status": "ok",
       "price": 60980,
-      "shop": "Joshin",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001630331/",
       "method": "fetch",
       "message": ""
@@ -660,7 +660,7 @@
       "name": "AMD Ryzen 7 8700G",
       "status": "ok",
       "price": 38800,
-      "shop": "パソコン工房",
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/item/K0001708081/",
       "method": "fetch",
       "message": ""
@@ -705,7 +705,7 @@
       "name": "AMD Ryzen 9 7950X",
       "status": "ok",
       "price": 95800,
-      "shop": "ソフマップ",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001467703/",
       "method": "fetch",
       "message": ""
@@ -840,7 +840,7 @@
       "name": "AMD Ryzen 7 5800X",
       "status": "ok",
       "price": 42090,
-      "shop": "TSUKUMO",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001780957/",
       "method": "fetch",
       "message": ""
@@ -856,12 +856,12 @@
     },
     {
       "name": "AMD Ryzen 7 5700X3D",
-      "status": "unavailable",
-      "price": 0,
-      "shop": "",
+      "status": "ok",
+      "price": 94410,
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001603511/",
       "method": "fetch",
-      "message": "Headline minimum price was not found"
+      "message": ""
     },
     {
       "name": "AMD Ryzen 7 5700X",
@@ -939,7 +939,7 @@
       "name": "AMD Ryzen 3 5300G",
       "status": "ok",
       "price": 17980,
-      "shop": "Joshin",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001661915/",
       "method": "fetch",
       "message": ""
@@ -1577,8 +1577,8 @@
     {
       "name": "HDD 8TB",
       "status": "ok",
-      "price": 38580,
-      "shop": "ドスパラ",
+      "price": 42478,
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=8&pdf_so=p1",
       "method": "aggregate",
       "message": ""
