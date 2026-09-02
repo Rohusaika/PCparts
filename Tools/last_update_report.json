@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-09-01 14:06 JST",
+  "updatedAt": "2026-09-02 13:29 JST",
   "summary": {
     "total": 180,
     "priced": 133,
@@ -21,7 +21,7 @@
       "name": "Intel Core Ultra 9 285",
       "status": "ok",
       "price": 107800,
-      "shop": "パソコン工房",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001679401/",
       "method": "fetch",
       "message": ""
@@ -29,8 +29,8 @@
     {
       "name": "Intel Core Ultra 7 265K",
       "status": "ok",
-      "price": 53978,
-      "shop": "Amazon",
+      "price": 53977,
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001658284/",
       "method": "fetch",
       "message": ""
@@ -102,7 +102,7 @@
       "name": "Intel Core Ultra 5 225",
       "status": "ok",
       "price": 31970,
-      "shop": "TSUKUMO",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001673195/",
       "method": "fetch",
       "message": ""
@@ -183,7 +183,7 @@
       "name": "Intel Core i7-14700F",
       "status": "ok",
       "price": 59980,
-      "shop": "PC-IDEA",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001596166/",
       "method": "fetch",
       "message": ""
@@ -246,7 +246,7 @@
       "name": "Intel Core i3-14100",
       "status": "ok",
       "price": 21380,
-      "shop": "パソコン工房",
+      "shop": "TSUKUMO",
       "sourceUrl": "https://kakaku.com/item/K0001596170/",
       "method": "fetch",
       "message": ""
@@ -254,8 +254,8 @@
     {
       "name": "Intel Core i3-14100F",
       "status": "ok",
-      "price": 16480,
-      "shop": "TSUKUMO",
+      "price": 16780,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001596171/",
       "method": "fetch",
       "message": ""
@@ -407,7 +407,7 @@
     {
       "name": "Intel Core i9-12900K",
       "status": "ok",
-      "price": 89141,
+      "price": 89103,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001431949/",
       "method": "fetch",
@@ -461,7 +461,7 @@
     {
       "name": "Intel Core i7-12700",
       "status": "ok",
-      "price": 55980,
+      "price": 54910,
       "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001413990/",
       "method": "fetch",
@@ -561,7 +561,7 @@
       "name": "AMD Ryzen 9 9950X3D2",
       "status": "ok",
       "price": 169980,
-      "shop": "Joshin",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001782911/",
       "method": "fetch",
       "message": ""
@@ -705,7 +705,7 @@
       "name": "AMD Ryzen 9 7950X",
       "status": "ok",
       "price": 95800,
-      "shop": "Amazon",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001467703/",
       "method": "fetch",
       "message": ""
@@ -759,7 +759,7 @@
       "name": "AMD Ryzen 7 7700",
       "status": "ok",
       "price": 39800,
-      "shop": "パソコン工房",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001711744/",
       "method": "fetch",
       "message": ""
@@ -839,8 +839,8 @@
     {
       "name": "AMD Ryzen 7 5800X",
       "status": "ok",
-      "price": 42090,
-      "shop": "ソフマップ",
+      "price": 40820,
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/item/K0001780957/",
       "method": "fetch",
       "message": ""
@@ -939,7 +939,7 @@
       "name": "AMD Ryzen 3 5300G",
       "status": "ok",
       "price": 17980,
-      "shop": "パソコン工房",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001661915/",
       "method": "fetch",
       "message": ""
@@ -956,8 +956,8 @@
     {
       "name": "NVIDIA GeForce RTX 5080",
       "status": "ok",
-      "price": 267800,
-      "shop": "Joshin",
+      "price": 268000,
+      "shop": "TSUKUMO",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5080&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1577,8 +1577,8 @@
     {
       "name": "HDD 8TB",
       "status": "ok",
-      "price": 42478,
-      "shop": "楽天市場",
+      "price": 39480,
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=8&pdf_so=p1",
       "method": "aggregate",
       "message": ""
