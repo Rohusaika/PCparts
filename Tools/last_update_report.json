@@ -1,10 +1,10 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-10-01 14:49 JST",
+  "updatedAt": "2026-10-02 14:34 JST",
   "summary": {
     "total": 180,
     "priced": 133,
-    "stale": 15,
+    "stale": 14,
     "unavailable": 47
   },
   "items": [
@@ -38,7 +38,7 @@
     {
       "name": "Intel Core Ultra 7 265KF",
       "status": "ok",
-      "price": 47637,
+      "price": 47530,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001658285/",
       "method": "fetch",
@@ -48,7 +48,7 @@
       "name": "Intel Core Ultra 7 265",
       "status": "ok",
       "price": 63980,
-      "shop": "PCSHOPアーク",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001677984/",
       "method": "fetch",
       "message": ""
@@ -74,8 +74,8 @@
     {
       "name": "Intel Core Ultra 5 245KF",
       "status": "ok",
-      "price": 30500,
-      "shop": "楽天市場",
+      "price": 30980,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001658287/",
       "method": "fetch",
       "message": ""
@@ -173,7 +173,7 @@
     {
       "name": "Intel Core i7-14700",
       "status": "ok",
-      "price": 64523,
+      "price": 64490,
       "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001596165/",
       "method": "fetch",
@@ -183,7 +183,7 @@
       "name": "Intel Core i7-14700F",
       "status": "ok",
       "price": 59980,
-      "shop": "PC-IDEA",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001596166/",
       "method": "fetch",
       "message": ""
@@ -191,7 +191,7 @@
     {
       "name": "Intel Core i5-14600K",
       "status": "ok",
-      "price": 45502,
+      "price": 45507,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001577325/",
       "method": "fetch",
@@ -200,7 +200,7 @@
     {
       "name": "Intel Core i5-14600KF",
       "status": "ok",
-      "price": 42362,
+      "price": 41555,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001577326/",
       "method": "fetch",
@@ -236,7 +236,7 @@
     {
       "name": "Intel Core i5-14400F",
       "status": "ok",
-      "price": 27979,
+      "price": 27799,
       "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001596169/",
       "method": "fetch",
@@ -246,7 +246,7 @@
       "name": "Intel Core i3-14100",
       "status": "ok",
       "price": 21380,
-      "shop": "TSUKUMO",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001596170/",
       "method": "fetch",
       "message": ""
@@ -578,8 +578,8 @@
     {
       "name": "AMD Ryzen 9 9950X",
       "status": "ok",
-      "price": 93624,
-      "shop": "Amazon",
+      "price": 93980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001630330/",
       "method": "fetch",
       "message": ""
@@ -596,8 +596,8 @@
     {
       "name": "AMD Ryzen 9 9900X",
       "status": "ok",
-      "price": 68957,
-      "shop": "Amazon",
+      "price": 70280,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001630331/",
       "method": "fetch",
       "message": ""
@@ -605,7 +605,7 @@
     {
       "name": "AMD Ryzen 7 9800X3D",
       "status": "ok",
-      "price": 57621,
+      "price": 57611,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001661801/",
       "method": "fetch",
@@ -614,7 +614,7 @@
     {
       "name": "AMD Ryzen 7 9700X",
       "status": "ok",
-      "price": 37755,
+      "price": 37754,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001630332/",
       "method": "fetch",
@@ -642,7 +642,7 @@
       "name": "AMD Ryzen 5 9600X",
       "status": "ok",
       "price": 34880,
-      "shop": "Amazon",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001630333/",
       "method": "fetch",
       "message": ""
@@ -660,7 +660,7 @@
       "name": "AMD Ryzen 7 8700G",
       "status": "ok",
       "price": 51980,
-      "shop": "Joshin",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001708081/",
       "method": "fetch",
       "message": ""
@@ -695,7 +695,7 @@
     {
       "name": "AMD Ryzen 9 7950X3D",
       "status": "ok",
-      "price": 97999,
+      "price": 94900,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001507442/",
       "method": "fetch",
@@ -759,7 +759,7 @@
       "name": "AMD Ryzen 7 7700",
       "status": "ok",
       "price": 39800,
-      "shop": "ソフマップ",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001711744/",
       "method": "fetch",
       "message": ""
@@ -875,8 +875,8 @@
     {
       "name": "AMD Ryzen 7 5700G",
       "status": "ok",
-      "price": 36340,
-      "shop": "Amazon",
+      "price": 36980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001359218/",
       "method": "fetch",
       "message": ""
@@ -912,7 +912,7 @@
       "name": "AMD Ryzen 5 5600G",
       "status": "ok",
       "price": 25980,
-      "shop": "Joshin",
+      "shop": "TSUKUMO",
       "sourceUrl": "https://kakaku.com/item/K0001603513/",
       "method": "fetch",
       "message": ""
@@ -965,8 +965,8 @@
     {
       "name": "NVIDIA GeForce RTX 5070 Ti",
       "status": "ok",
-      "price": 209020,
-      "shop": "Amazon",
+      "price": 209800,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5070+Ti&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1028,7 +1028,7 @@
     {
       "name": "NVIDIA GeForce RTX 4080",
       "status": "ok",
-      "price": 304344,
+      "price": 308800,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4080&pdf_so=p1",
       "method": "aggregate",
@@ -1037,7 +1037,7 @@
     {
       "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
       "status": "ok",
-      "price": 294579,
+      "price": 183000,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+Ti+SUPER&pdf_so=p1",
       "method": "aggregate",
@@ -1046,7 +1046,7 @@
     {
       "name": "NVIDIA GeForce RTX 4070 Ti",
       "status": "ok",
-      "price": 225940,
+      "price": 226107,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+Ti&pdf_so=p1",
       "method": "aggregate",
@@ -1163,8 +1163,8 @@
     {
       "name": "NVIDIA GeForce RTX 3050",
       "status": "ok",
-      "price": 39800,
-      "shop": "Amazon",
+      "price": 34980,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3050&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1433,7 +1433,7 @@
     {
       "name": "DDR5 64GB",
       "status": "ok",
-      "price": 241904,
+      "price": 242069,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=64GB&pdf_so=p1",
       "method": "aggregate",
@@ -1441,18 +1441,18 @@
     },
     {
       "name": "DDR5 32GB",
-      "status": "stale",
+      "status": "ok",
       "price": 69800,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=32GB&pdf_so=p1",
-      "method": "history",
-      "message": "Suspicious change rejected: previous=69800, fetched=32833, ratio=0.470"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "DDR5 16GB",
       "status": "ok",
-      "price": 35280,
-      "shop": "Joshin",
+      "price": 33990,
+      "shop": "TSUKUMO",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=16GB&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1496,8 +1496,8 @@
     {
       "name": "M.2 SSD 1TB",
       "status": "ok",
-      "price": 24980,
-      "shop": "Amazon",
+      "price": 21830,
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=1TB&pdf_so=p1",
       "method": "aggregate",
       "message": ""
