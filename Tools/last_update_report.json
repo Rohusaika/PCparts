@@ -1,17 +1,17 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-10-18 13:28 JST",
+  "updatedAt": "2026-10-19 13:38 JST",
   "summary": {
     "total": 180,
     "priced": 134,
-    "stale": 16,
+    "stale": 17,
     "unavailable": 46
   },
   "items": [
     {
       "name": "Intel Core Ultra 9 285K",
       "status": "ok",
-      "price": 95806,
+      "price": 99753,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001658283/",
       "method": "fetch",
@@ -38,7 +38,7 @@
     {
       "name": "Intel Core Ultra 7 265KF",
       "status": "ok",
-      "price": 47910,
+      "price": 47979,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001658285/",
       "method": "fetch",
@@ -48,7 +48,7 @@
       "name": "Intel Core Ultra 7 265",
       "status": "ok",
       "price": 63980,
-      "shop": "パソコン工房",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001677984/",
       "method": "fetch",
       "message": ""
@@ -74,7 +74,7 @@
     {
       "name": "Intel Core Ultra 5 245KF",
       "status": "ok",
-      "price": 30500,
+      "price": 30510,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001658287/",
       "method": "fetch",
@@ -92,8 +92,8 @@
     {
       "name": "Intel Core Ultra 5 235",
       "status": "ok",
-      "price": 46979,
-      "shop": "パソコン工房",
+      "price": 46880,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001673194/",
       "method": "fetch",
       "message": ""
@@ -111,7 +111,7 @@
       "name": "Intel Core Ultra 5 225F",
       "status": "ok",
       "price": 24980,
-      "shop": "パソコン工房",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001673196/",
       "method": "fetch",
       "message": ""
@@ -183,7 +183,7 @@
       "name": "Intel Core i7-14700F",
       "status": "ok",
       "price": 59980,
-      "shop": "ドスパラ",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001596166/",
       "method": "fetch",
       "message": ""
@@ -200,7 +200,7 @@
     {
       "name": "Intel Core i5-14600KF",
       "status": "ok",
-      "price": 41694,
+      "price": 40810,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001577326/",
       "method": "fetch",
@@ -218,7 +218,7 @@
     {
       "name": "Intel Core i5-14500",
       "status": "ok",
-      "price": 44490,
+      "price": 44489,
       "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001596167/",
       "method": "fetch",
@@ -236,7 +236,7 @@
     {
       "name": "Intel Core i5-14400F",
       "status": "ok",
-      "price": 27979,
+      "price": 27980,
       "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001596169/",
       "method": "fetch",
@@ -406,12 +406,12 @@
     },
     {
       "name": "Intel Core i9-12900K",
-      "status": "ok",
+      "status": "stale",
       "price": 81346,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/item/K0001431949/",
-      "method": "fetch",
-      "message": ""
+      "method": "history",
+      "message": "No approved-shop offer row matched the headline price table"
     },
     {
       "name": "Intel Core i9-12900KF",
@@ -479,7 +479,7 @@
     {
       "name": "Intel Core i5-12600K",
       "status": "ok",
-      "price": 43053,
+      "price": 43175,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001395720/",
       "method": "fetch",
@@ -497,7 +497,7 @@
     {
       "name": "Intel Core i5-12600",
       "status": "ok",
-      "price": 98516,
+      "price": 103184,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001413992/",
       "method": "fetch",
@@ -695,8 +695,8 @@
     {
       "name": "AMD Ryzen 9 7950X3D",
       "status": "ok",
-      "price": 106867,
-      "shop": "Amazon",
+      "price": 108000,
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001507442/",
       "method": "fetch",
       "message": ""
@@ -812,7 +812,7 @@
     {
       "name": "AMD Ryzen 9 5900X",
       "status": "ok",
-      "price": 52178,
+      "price": 51971,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001630334/",
       "method": "fetch",
@@ -884,7 +884,7 @@
     {
       "name": "AMD Ryzen 7 5700",
       "status": "ok",
-      "price": 31839,
+      "price": 31886,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001603512/",
       "method": "fetch",
@@ -920,7 +920,7 @@
     {
       "name": "AMD Ryzen 5 5600",
       "status": "ok",
-      "price": 41410,
+      "price": 40494,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001661916/",
       "method": "fetch",
@@ -956,7 +956,7 @@
     {
       "name": "NVIDIA GeForce RTX 5080",
       "status": "ok",
-      "price": 282800,
+      "price": 295799,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5080&pdf_so=p1",
       "method": "aggregate",
@@ -965,8 +965,8 @@
     {
       "name": "NVIDIA GeForce RTX 5070 Ti",
       "status": "ok",
-      "price": 209800,
-      "shop": "ドスパラ",
+      "price": 210487,
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5070+Ti&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1046,7 +1046,7 @@
     {
       "name": "NVIDIA GeForce RTX 4070 Ti",
       "status": "ok",
-      "price": 227411,
+      "price": 226966,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+Ti&pdf_so=p1",
       "method": "aggregate",
@@ -1082,8 +1082,8 @@
     {
       "name": "NVIDIA GeForce RTX 4060",
       "status": "ok",
-      "price": 89800,
-      "shop": "Amazon",
+      "price": 89908,
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4060&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1100,7 +1100,7 @@
     {
       "name": "NVIDIA GeForce RTX 3090",
       "status": "ok",
-      "price": 330791,
+      "price": 344753,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3090&pdf_so=p1",
       "method": "aggregate",
@@ -1145,7 +1145,7 @@
     {
       "name": "NVIDIA GeForce RTX 3060 Ti",
       "status": "ok",
-      "price": 82671,
+      "price": 87225,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3060+Ti&pdf_so=p1",
       "method": "aggregate",
@@ -1433,7 +1433,7 @@
     {
       "name": "DDR5 64GB",
       "status": "ok",
-      "price": 220134,
+      "price": 220684,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=64GB&pdf_so=p1",
       "method": "aggregate",
@@ -1586,8 +1586,8 @@
     {
       "name": "HDD 4TB",
       "status": "ok",
-      "price": 24869,
-      "shop": "TSUKUMO",
+      "price": 30390,
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=4&pdf_so=p1",
       "method": "aggregate",
       "message": ""
