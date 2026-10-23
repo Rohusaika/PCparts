@@ -1,17 +1,17 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-10-22 13:40 JST",
+  "updatedAt": "2026-10-23 13:45 JST",
   "summary": {
     "total": 180,
     "priced": 134,
-    "stale": 20,
+    "stale": 32,
     "unavailable": 46
   },
   "items": [
     {
       "name": "Intel Core Ultra 9 285K",
       "status": "ok",
-      "price": 94809,
+      "price": 95115,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001658283/",
       "method": "fetch",
@@ -48,7 +48,7 @@
       "name": "Intel Core Ultra 7 265",
       "status": "ok",
       "price": 63980,
-      "shop": "ドスパラ",
+      "shop": "PCSHOPアーク",
       "sourceUrl": "https://kakaku.com/item/K0001677984/",
       "method": "fetch",
       "message": ""
@@ -57,7 +57,7 @@
       "name": "Intel Core Ultra 7 265F",
       "status": "ok",
       "price": 54980,
-      "shop": "パソコン工房",
+      "shop": "PCSHOPアーク",
       "sourceUrl": "https://kakaku.com/item/K0001678741/",
       "method": "fetch",
       "message": ""
@@ -75,7 +75,7 @@
       "name": "Intel Core Ultra 5 245KF",
       "status": "ok",
       "price": 30970,
-      "shop": "TSUKUMO",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001658287/",
       "method": "fetch",
       "message": ""
@@ -111,7 +111,7 @@
       "name": "Intel Core Ultra 5 225F",
       "status": "ok",
       "price": 24980,
-      "shop": "PC-IDEA",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001673196/",
       "method": "fetch",
       "message": ""
@@ -155,7 +155,7 @@
     {
       "name": "Intel Core i7-14700K",
       "status": "ok",
-      "price": 67550,
+      "price": 67771,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001577323/",
       "method": "fetch",
@@ -183,7 +183,7 @@
       "name": "Intel Core i7-14700F",
       "status": "ok",
       "price": 59980,
-      "shop": "パソコン工房",
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001596166/",
       "method": "fetch",
       "message": ""
@@ -200,7 +200,7 @@
     {
       "name": "Intel Core i5-14600KF",
       "status": "ok",
-      "price": 41319,
+      "price": 41387,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001577326/",
       "method": "fetch",
@@ -237,7 +237,7 @@
       "name": "Intel Core i5-14400F",
       "status": "ok",
       "price": 27980,
-      "shop": "ドスパラ",
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001596169/",
       "method": "fetch",
       "message": ""
@@ -496,12 +496,12 @@
     },
     {
       "name": "Intel Core i5-12600",
-      "status": "stale",
-      "price": 96990,
-      "shop": "前回の正常値",
+      "status": "ok",
+      "price": 92313,
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001413992/",
-      "method": "history",
-      "message": "Headline minimum price was not found"
+      "method": "fetch",
+      "message": ""
     },
     {
       "name": "Intel Core i5-12500",
@@ -561,7 +561,7 @@
       "name": "AMD Ryzen 9 9950X3D2",
       "status": "ok",
       "price": 169980,
-      "shop": "PC-IDEA",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001782911/",
       "method": "fetch",
       "message": ""
@@ -650,8 +650,8 @@
     {
       "name": "AMD Ryzen 5 9600",
       "status": "ok",
-      "price": 32800,
-      "shop": "Amazon",
+      "price": 32880,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001680188/",
       "method": "fetch",
       "message": ""
@@ -677,7 +677,7 @@
     {
       "name": "AMD Ryzen 5 8500G",
       "status": "ok",
-      "price": 22980,
+      "price": 22490,
       "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001603517/",
       "method": "fetch",
@@ -695,7 +695,7 @@
     {
       "name": "AMD Ryzen 9 7950X3D",
       "status": "ok",
-      "price": 108000,
+      "price": 106800,
       "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001507442/",
       "method": "fetch",
@@ -713,7 +713,7 @@
     {
       "name": "AMD Ryzen 9 7900X3D",
       "status": "ok",
-      "price": 110000,
+      "price": 99800,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001507443/",
       "method": "fetch",
@@ -758,8 +758,8 @@
     {
       "name": "AMD Ryzen 7 7700",
       "status": "ok",
-      "price": 39800,
-      "shop": "パソコン工房",
+      "price": 37800,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001711744/",
       "method": "fetch",
       "message": ""
@@ -812,7 +812,7 @@
     {
       "name": "AMD Ryzen 9 5900X",
       "status": "ok",
-      "price": 52678,
+      "price": 55464,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001630334/",
       "method": "fetch",
@@ -839,8 +839,8 @@
     {
       "name": "AMD Ryzen 7 5800X",
       "status": "ok",
-      "price": 44020,
-      "shop": "Joshin",
+      "price": 34800,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001780957/",
       "method": "fetch",
       "message": ""
@@ -875,8 +875,8 @@
     {
       "name": "AMD Ryzen 7 5700G",
       "status": "ok",
-      "price": 36439,
-      "shop": "Amazon",
+      "price": 36980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001359218/",
       "method": "fetch",
       "message": ""
@@ -920,7 +920,7 @@
     {
       "name": "AMD Ryzen 5 5600",
       "status": "ok",
-      "price": 40494,
+      "price": 41157,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001661916/",
       "method": "fetch",
@@ -951,13 +951,13 @@
       "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5090&pdf_so=p1",
       "method": "history",
-      "message": "Suspicious change rejected: previous=549800, fetched=1751862, ratio=3.186"
+      "message": "Suspicious change rejected: previous=549800, fetched=1851875, ratio=3.368"
     },
     {
       "name": "NVIDIA GeForce RTX 5080",
       "status": "ok",
-      "price": 298789,
-      "shop": "Amazon",
+      "price": 295799,
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5080&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -974,7 +974,7 @@
     {
       "name": "NVIDIA GeForce RTX 5070",
       "status": "ok",
-      "price": 153836,
+      "price": 149473,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5070&pdf_so=p1",
       "method": "aggregate",
@@ -992,8 +992,8 @@
     {
       "name": "NVIDIA GeForce RTX 5060",
       "status": "ok",
-      "price": 75330,
-      "shop": "Joshin",
+      "price": 77800,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5060&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1010,7 +1010,7 @@
     {
       "name": "NVIDIA GeForce RTX 4090",
       "status": "ok",
-      "price": 848000,
+      "price": 998800,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4090&pdf_so=p1",
       "method": "aggregate",
@@ -1046,7 +1046,7 @@
     {
       "name": "NVIDIA GeForce RTX 4070 Ti",
       "status": "ok",
-      "price": 226845,
+      "price": 227321,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+Ti&pdf_so=p1",
       "method": "aggregate",
@@ -1082,8 +1082,8 @@
     {
       "name": "NVIDIA GeForce RTX 4060",
       "status": "ok",
-      "price": 88126,
-      "shop": "楽天市場",
+      "price": 89800,
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4060&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1181,8 +1181,8 @@
     {
       "name": "AMD Radeon RX 9070",
       "status": "ok",
-      "price": 119800,
-      "shop": "Joshin",
+      "price": 94880,
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1383,43 +1383,43 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=128GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=128GB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=128GB&pdf_so=p1"
     },
     {
       "name": "DDR4 64GB",
-      "status": "ok",
+      "status": "stale",
       "price": 86420,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=64GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=64GB&pdf_so=p1"
     },
     {
       "name": "DDR4 32GB",
-      "status": "ok",
+      "status": "stale",
       "price": 34390,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=32GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=32GB&pdf_so=p1"
     },
     {
       "name": "DDR4 16GB",
-      "status": "ok",
+      "status": "stale",
       "price": 16000,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=16GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=16GB&pdf_so=p1"
     },
     {
       "name": "DDR4 8GB",
-      "status": "ok",
+      "status": "stale",
       "price": 7880,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=8GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=6&pdf_kw=8GB&pdf_so=p1"
     },
     {
       "name": "DDR5 128GB",
@@ -1428,43 +1428,43 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=128GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=128GB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=128GB&pdf_so=p1"
     },
     {
       "name": "DDR5 64GB",
-      "status": "ok",
+      "status": "stale",
       "price": 272453,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=64GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=64GB&pdf_so=p1"
     },
     {
       "name": "DDR5 32GB",
-      "status": "ok",
+      "status": "stale",
       "price": 71244,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=32GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=32GB&pdf_so=p1"
     },
     {
       "name": "DDR5 16GB",
-      "status": "ok",
+      "status": "stale",
       "price": 33990,
-      "shop": "TSUKUMO",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=16GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=16GB&pdf_so=p1"
     },
     {
       "name": "DDR5 8GB",
-      "status": "ok",
+      "status": "stale",
       "price": 24970,
-      "shop": "PCSHOPアーク",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=8GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/pc-memory/itemlist.aspx?pdf_Spec101=7&pdf_kw=8GB&pdf_so=p1"
     },
     {
       "name": "M.2 SSD 8TB",
@@ -1473,7 +1473,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=8TB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=8TB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=8TB&pdf_so=p1"
     },
     {
       "name": "M.2 SSD 4TB",
@@ -1482,25 +1482,25 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=4TB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=4TB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=4TB&pdf_so=p1"
     },
     {
       "name": "M.2 SSD 2TB",
-      "status": "ok",
+      "status": "stale",
       "price": 39670,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=2TB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=2TB&pdf_so=p1"
     },
     {
       "name": "M.2 SSD 1TB",
-      "status": "ok",
+      "status": "stale",
       "price": 17560,
-      "shop": "楽天市場",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=1TB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=1TB&pdf_so=p1"
     },
     {
       "name": "M.2 SSD 512GB",
@@ -1509,7 +1509,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=512GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=512GB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=512GB&pdf_so=p1"
     },
     {
       "name": "M.2 SSD 256GB",
@@ -1518,7 +1518,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=256GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=256GB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=6%2C8%2C9%2C10&pdf_kw=256GB&pdf_so=p1"
     },
     {
       "name": "SATA SSD 8TB",
@@ -1527,7 +1527,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=8TB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=8TB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=8TB&pdf_so=p1"
     },
     {
       "name": "SATA SSD 4TB",
@@ -1536,7 +1536,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=4TB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=4TB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=4TB&pdf_so=p1"
     },
     {
       "name": "SATA SSD 2TB",
@@ -1545,16 +1545,16 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=2TB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=2TB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=2TB&pdf_so=p1"
     },
     {
       "name": "SATA SSD 1TB",
-      "status": "ok",
+      "status": "stale",
       "price": 20480,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=1TB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=1TB&pdf_so=p1"
     },
     {
       "name": "SATA SSD 512GB",
@@ -1563,16 +1563,16 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=512GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=512GB&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=512GB&pdf_so=p1"
     },
     {
       "name": "SATA SSD 256GB",
-      "status": "ok",
+      "status": "stale",
       "price": 9080,
-      "shop": "PC-IDEA",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=256GB&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/ssd/itemlist.aspx?pdf_Spec102=2&pdf_kw=256GB&pdf_so=p1"
     },
     {
       "name": "HDD 8TB",
@@ -1581,16 +1581,16 @@
       "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=8&pdf_so=p1",
       "method": "history",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=8&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=8&pdf_so=p1"
     },
     {
       "name": "HDD 4TB",
-      "status": "ok",
+      "status": "stale",
       "price": 30350,
-      "shop": "Amazon",
+      "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=4&pdf_so=p1",
-      "method": "aggregate",
-      "message": ""
+      "method": "history",
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=4&pdf_so=p1"
     },
     {
       "name": "HDD 2TB",
@@ -1599,7 +1599,7 @@
       "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=2&pdf_so=p1",
       "method": "history",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=2&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=2&pdf_so=p1"
     },
     {
       "name": "HDD 1TB",
@@ -1608,7 +1608,7 @@
       "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=1&pdf_so=p1",
       "method": "history",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=1&pdf_so=p1&pdf_pg=2"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_Spec309=1&pdf_so=p1"
     },
     {
       "name": "HDD 512GB",
@@ -1617,7 +1617,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_kw=512GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_kw=512GB&pdf_so=p1"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_kw=512GB&pdf_so=p1"
     },
     {
       "name": "HDD 256GB",
@@ -1626,7 +1626,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_kw=256GB&pdf_so=p1",
       "method": "fetch",
-      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_kw=256GB&pdf_so=p1"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/hdd-35inch/itemlist.aspx?pdf_kw=256GB&pdf_so=p1"
     }
   ]
 }
