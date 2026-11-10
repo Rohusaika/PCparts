@@ -1,10 +1,10 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-11-09 15:16 JST",
+  "updatedAt": "2026-11-10 16:13 JST",
   "summary": {
     "total": 180,
     "priced": 134,
-    "stale": 48,
+    "stale": 33,
     "unavailable": 46
   },
   "items": [
@@ -38,7 +38,7 @@
     {
       "name": "Intel Core Ultra 7 265KF",
       "status": "ok",
-      "price": 47478,
+      "price": 47400,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001658285/",
       "method": "fetch",
@@ -48,7 +48,7 @@
       "name": "Intel Core Ultra 7 265",
       "status": "ok",
       "price": 63980,
-      "shop": "Joshin",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001677984/",
       "method": "fetch",
       "message": ""
@@ -57,7 +57,7 @@
       "name": "Intel Core Ultra 7 265F",
       "status": "ok",
       "price": 54980,
-      "shop": "パソコン工房",
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001678741/",
       "method": "fetch",
       "message": ""
@@ -65,8 +65,8 @@
     {
       "name": "Intel Core Ultra 5 245K",
       "status": "ok",
-      "price": 36574,
-      "shop": "楽天市場",
+      "price": 36800,
+      "shop": "ソフマップ",
       "sourceUrl": "https://kakaku.com/item/K0001658286/",
       "method": "fetch",
       "message": ""
@@ -75,7 +75,7 @@
       "name": "Intel Core Ultra 5 245KF",
       "status": "ok",
       "price": 30970,
-      "shop": "TSUKUMO",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001658287/",
       "method": "fetch",
       "message": ""
@@ -92,8 +92,8 @@
     {
       "name": "Intel Core Ultra 5 235",
       "status": "ok",
-      "price": 47980,
-      "shop": "PC-IDEA",
+      "price": 46880,
+      "shop": "パソコン工房",
       "sourceUrl": "https://kakaku.com/item/K0001673194/",
       "method": "fetch",
       "message": ""
@@ -101,7 +101,7 @@
     {
       "name": "Intel Core Ultra 5 225",
       "status": "ok",
-      "price": 31288,
+      "price": 31117,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001673195/",
       "method": "fetch",
@@ -155,8 +155,8 @@
     {
       "name": "Intel Core i7-14700K",
       "status": "ok",
-      "price": 66291,
-      "shop": "Amazon",
+      "price": 67980,
+      "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001577323/",
       "method": "fetch",
       "message": ""
@@ -164,7 +164,7 @@
     {
       "name": "Intel Core i7-14700KF",
       "status": "ok",
-      "price": 62010,
+      "price": 61987,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001577324/",
       "method": "fetch",
@@ -218,7 +218,7 @@
     {
       "name": "Intel Core i5-14500",
       "status": "ok",
-      "price": 43862,
+      "price": 43863,
       "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001596167/",
       "method": "fetch",
@@ -227,7 +227,7 @@
     {
       "name": "Intel Core i5-14400",
       "status": "ok",
-      "price": 30480,
+      "price": 30459,
       "shop": "PC-IDEA",
       "sourceUrl": "https://kakaku.com/item/K0001596168/",
       "method": "fetch",
@@ -246,7 +246,7 @@
       "name": "Intel Core i3-14100",
       "status": "ok",
       "price": 21280,
-      "shop": "パソコン工房",
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001596170/",
       "method": "fetch",
       "message": ""
@@ -335,7 +335,7 @@
     {
       "name": "Intel Core i5-13600K",
       "status": "ok",
-      "price": 46181,
+      "price": 40900,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001476109/",
       "method": "fetch",
@@ -380,7 +380,7 @@
     {
       "name": "Intel Core i5-13400F",
       "status": "ok",
-      "price": 35641,
+      "price": 37348,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001506432/",
       "method": "fetch",
@@ -407,7 +407,7 @@
     {
       "name": "Intel Core i9-12900K",
       "status": "ok",
-      "price": 99667,
+      "price": 99625,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001431949/",
       "method": "fetch",
@@ -560,7 +560,7 @@
     {
       "name": "AMD Ryzen 9 9950X3D2",
       "status": "ok",
-      "price": 174071,
+      "price": 169259,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001782911/",
       "method": "fetch",
@@ -605,7 +605,7 @@
     {
       "name": "AMD Ryzen 7 9800X3D",
       "status": "ok",
-      "price": 62964,
+      "price": 62989,
       "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/item/K0001661801/",
       "method": "fetch",
@@ -641,7 +641,7 @@
     {
       "name": "AMD Ryzen 5 9600X",
       "status": "ok",
-      "price": 34452,
+      "price": 34449,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/item/K0001630333/",
       "method": "fetch",
@@ -650,8 +650,8 @@
     {
       "name": "AMD Ryzen 5 9600",
       "status": "ok",
-      "price": 32880,
-      "shop": "PC-IDEA",
+      "price": 32580,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/item/K0001680188/",
       "method": "fetch",
       "message": ""
@@ -840,7 +840,7 @@
       "name": "AMD Ryzen 7 5800X",
       "status": "ok",
       "price": 34800,
-      "shop": "ドスパラ",
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/item/K0001780957/",
       "method": "fetch",
       "message": ""
@@ -930,7 +930,7 @@
       "name": "AMD Ryzen 5 5500",
       "status": "ok",
       "price": 16170,
-      "shop": "ドスパラ",
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/item/K0001429755/",
       "method": "fetch",
       "message": ""
@@ -951,12 +951,12 @@
       "shop": "前回の正常値",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5090&pdf_so=p1",
       "method": "history",
-      "message": "Suspicious change rejected: previous=549800, fetched=1098000, ratio=1.997"
+      "message": "Suspicious change rejected: previous=549800, fetched=1048000, ratio=1.906"
     },
     {
       "name": "NVIDIA GeForce RTX 5080",
       "status": "ok",
-      "price": 329800,
+      "price": 309800,
       "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5080&pdf_so=p1",
       "method": "aggregate",
@@ -965,8 +965,8 @@
     {
       "name": "NVIDIA GeForce RTX 5070 Ti",
       "status": "ok",
-      "price": 229700,
-      "shop": "PCSHOPアーク",
+      "price": 229800,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5070+Ti&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -983,8 +983,8 @@
     {
       "name": "NVIDIA GeForce RTX 5060 Ti",
       "status": "ok",
-      "price": 93000,
-      "shop": "Amazon",
+      "price": 94780,
+      "shop": "ドスパラ",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+5060+Ti&pdf_so=p1",
       "method": "aggregate",
       "message": ""
@@ -1046,7 +1046,7 @@
     {
       "name": "NVIDIA GeForce RTX 4070 Ti",
       "status": "ok",
-      "price": 246687,
+      "price": 266233,
       "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+Ti&pdf_so=p1",
       "method": "aggregate",
@@ -1054,120 +1054,120 @@
     },
     {
       "name": "NVIDIA GeForce RTX 4070 SUPER",
-      "status": "stale",
+      "status": "ok",
       "price": 224280,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+SUPER&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070+SUPER&pdf_so=p1&pdf_pg=2"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 4070",
-      "status": "stale",
+      "status": "ok",
       "price": 168000,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4070&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 4060 Ti",
-      "status": "stale",
-      "price": 106800,
-      "shop": "前回の正常値",
+      "status": "ok",
+      "price": 108988,
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4060+Ti&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4060+Ti&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 4060",
-      "status": "stale",
+      "status": "ok",
       "price": 101250,
-      "shop": "前回の正常値",
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4060&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+4060&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3090 Ti",
-      "status": "stale",
+      "status": "ok",
       "price": 476785,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3090+Ti&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3090+Ti&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3090",
-      "status": "stale",
+      "status": "ok",
       "price": 473689,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3090&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3090&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3080 Ti",
-      "status": "stale",
+      "status": "ok",
       "price": 138000,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3080+Ti&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3080+Ti&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3080",
-      "status": "stale",
+      "status": "ok",
       "price": 132143,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3080&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3080&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3070 Ti",
-      "status": "stale",
+      "status": "ok",
       "price": 79980,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3070+Ti&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3070+Ti&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3070",
-      "status": "stale",
-      "price": 61500,
-      "shop": "前回の正常値",
+      "status": "ok",
+      "price": 60000,
+      "shop": "楽天市場",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3070&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3070&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3060 Ti",
-      "status": "stale",
-      "price": 87472,
-      "shop": "前回の正常値",
+      "status": "ok",
+      "price": 97475,
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3060+Ti&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3060+Ti&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3060",
-      "status": "stale",
+      "status": "ok",
       "price": 66411,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3060&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3060&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "NVIDIA GeForce RTX 3050",
-      "status": "stale",
+      "status": "ok",
       "price": 36499,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3050&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=GeForce+RTX+3050&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "AMD Radeon RX 9070 XT",
@@ -1176,16 +1176,16 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070+XT&pdf_so=p1",
       "method": "fetch",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070+XT&pdf_so=p1"
+      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070+XT&pdf_so=p1&pdf_pg=2"
     },
     {
       "name": "AMD Radeon RX 9070",
-      "status": "stale",
+      "status": "ok",
       "price": 125800,
-      "shop": "前回の正常値",
+      "shop": "Joshin",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "AMD Radeon RX 9070 GRE",
@@ -1194,7 +1194,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070+GRE&pdf_so=p1",
       "method": "fetch",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070+GRE&pdf_so=p1"
+      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9070+GRE&pdf_so=p1&pdf_pg=2"
     },
     {
       "name": "AMD Radeon RX 9060 XT",
@@ -1203,7 +1203,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9060+XT&pdf_so=p1",
       "method": "fetch",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9060+XT&pdf_so=p1"
+      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+9060+XT&pdf_so=p1&pdf_pg=2"
     },
     {
       "name": "AMD Radeon RX 7900 XTX",
@@ -1212,16 +1212,16 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+XTX&pdf_so=p1",
       "method": "fetch",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+XTX&pdf_so=p1"
+      "message": "404 Client Error: Not Found for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+XTX&pdf_so=p1&pdf_pg=2"
     },
     {
       "name": "AMD Radeon RX 7900 XT",
-      "status": "stale",
+      "status": "ok",
       "price": 236046,
-      "shop": "前回の正常値",
+      "shop": "Amazon",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+XT&pdf_so=p1",
-      "method": "history",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+XT&pdf_so=p1"
+      "method": "aggregate",
+      "message": ""
     },
     {
       "name": "AMD Radeon RX 7900 GRE",
@@ -1230,7 +1230,7 @@
       "shop": "",
       "sourceUrl": "https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+GRE&pdf_so=p1",
       "method": "fetch",
-      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+GRE&pdf_so=p1"
+      "message": "429 Client Error: Too Many Requests for url: https://kakaku.com/pc/videocard/itemlist.aspx?pdf_kw=Radeon+RX+7900+GRE&pdf_so=p1&pdf_pg=2"
     },
     {
       "name": "AMD Radeon RX 7800 XT",
